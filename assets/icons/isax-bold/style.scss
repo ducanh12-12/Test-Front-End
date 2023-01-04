@@ -1,0 +1,4511 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ekmg04');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ekmg04#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ekmg04') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ekmg04') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ekmg04##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.isaxb {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 14px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.woman-bold {
+  &:before {
+    content: $woman-bold; 
+  }
+}
+.wind-2-bold {
+  &:before {
+    content: $wind-2-bold; 
+  }
+}
+.wind-bold {
+  &:before {
+    content: $wind-bold; 
+  }
+}
+.wifi-square-bold {
+  &:before {
+    content: $wifi-square-bold; 
+  }
+}
+.wifi-bold {
+  &:before {
+    content: $wifi-bold; 
+  }
+}
+.weight-1-bold {
+  &:before {
+    content: $weight-1-bold; 
+  }
+}
+.weight-bold {
+  &:before {
+    content: $weight-bold; 
+  }
+}
+.watch-status-bold {
+  &:before {
+    content: $watch-status-bold; 
+  }
+}
+.watch-bold {
+  &:before {
+    content: $watch-bold; 
+  }
+}
+.warning-2-bold {
+  &:before {
+    content: $warning-2-bold; 
+  }
+}
+.wallet-search-bold {
+  &:before {
+    content: $wallet-search-bold; 
+  }
+}
+.wallet-remove-bold {
+  &:before {
+    content: $wallet-remove-bold; 
+  }
+}
+.wallet-money-bold {
+  &:before {
+    content: $wallet-money-bold; 
+  }
+}
+.wallet-minus-bold {
+  &:before {
+    content: $wallet-minus-bold; 
+  }
+}
+.wallet-check-bold {
+  &:before {
+    content: $wallet-check-bold; 
+  }
+}
+.wallet-add-1-bold {
+  &:before {
+    content: $wallet-add-1-bold; 
+  }
+}
+.wallet-add-bold {
+  &:before {
+    content: $wallet-add-bold; 
+  }
+}
+.wallet-3-bold {
+  &:before {
+    content: $wallet-3-bold; 
+  }
+}
+.wallet-2-bold {
+  &:before {
+    content: $wallet-2-bold; 
+  }
+}
+.wallet-1-bold {
+  &:before {
+    content: $wallet-1-bold; 
+  }
+}
+.wallet-bold {
+  &:before {
+    content: $wallet-bold; 
+  }
+}
+.volume-up-bold {
+  &:before {
+    content: $volume-up-bold; 
+  }
+}
+.volume-slash-bold {
+  &:before {
+    content: $volume-slash-bold; 
+  }
+}
+.volume-mute-bold {
+  &:before {
+    content: $volume-mute-bold; 
+  }
+}
+.volume-low-1-bold {
+  &:before {
+    content: $volume-low-1-bold; 
+  }
+}
+.volume-low-bold {
+  &:before {
+    content: $volume-low-bold; 
+  }
+}
+.volume-high-bold {
+  &:before {
+    content: $volume-high-bold; 
+  }
+}
+.volume-cross-bold {
+  &:before {
+    content: $volume-cross-bold; 
+  }
+}
+.voice-square-bold {
+  &:before {
+    content: $voice-square-bold; 
+  }
+}
+.voice-cricle-bold {
+  &:before {
+    content: $voice-cricle-bold; 
+  }
+}
+.video-vertical-bold {
+  &:before {
+    content: $video-vertical-bold; 
+  }
+}
+.video-time-bold {
+  &:before {
+    content: $video-time-bold; 
+  }
+}
+.video-tick-bold {
+  &:before {
+    content: $video-tick-bold; 
+  }
+}
+.video-square-bold {
+  &:before {
+    content: $video-square-bold; 
+  }
+}
+.video-slash-bold {
+  &:before {
+    content: $video-slash-bold; 
+  }
+}
+.video-remove-bold {
+  &:before {
+    content: $video-remove-bold; 
+  }
+}
+.video-play-bold {
+  &:before {
+    content: $video-play-bold; 
+  }
+}
+.video-octagon-bold {
+  &:before {
+    content: $video-octagon-bold; 
+  }
+}
+.video-horizontal-bold {
+  &:before {
+    content: $video-horizontal-bold; 
+  }
+}
+.video-circle-bold {
+  &:before {
+    content: $video-circle-bold; 
+  }
+}
+.video-add-bold {
+  &:before {
+    content: $video-add-bold; 
+  }
+}
+.video-bold {
+  &:before {
+    content: $video-bold; 
+  }
+}
+.verify-bold {
+  &:before {
+    content: $verify-bold; 
+  }
+}
+.user-tick-bold {
+  &:before {
+    content: $user-tick-bold; 
+  }
+}
+.user-tag-bold {
+  &:before {
+    content: $user-tag-bold; 
+  }
+}
+.user-square-bold {
+  &:before {
+    content: $user-square-bold; 
+  }
+}
+.user-search-bold {
+  &:before {
+    content: $user-search-bold; 
+  }
+}
+.user-remove-bold {
+  &:before {
+    content: $user-remove-bold; 
+  }
+}
+.user-octagon-bold {
+  &:before {
+    content: $user-octagon-bold; 
+  }
+}
+.user-minus-bold {
+  &:before {
+    content: $user-minus-bold; 
+  }
+}
+.user-edit-bold {
+  &:before {
+    content: $user-edit-bold; 
+  }
+}
+.user-cirlce-add-bold {
+  &:before {
+    content: $user-cirlce-add-bold; 
+  }
+}
+.user-add-bold {
+  &:before {
+    content: $user-add-bold; 
+  }
+}
+.user-bold {
+  &:before {
+    content: $user-bold; 
+  }
+}
+.unlock-bold {
+  &:before {
+    content: $unlock-bold; 
+  }
+}
+.unlimited-bold {
+  &:before {
+    content: $unlimited-bold; 
+  }
+}
+.undo-bold {
+  &:before {
+    content: $undo-bold; 
+  }
+}
+.trush-square-bold {
+  &:before {
+    content: $trush-square-bold; 
+  }
+}
+.truck-time-bold {
+  &:before {
+    content: $truck-time-bold; 
+  }
+}
+.truck-tick-bold {
+  &:before {
+    content: $truck-tick-bold; 
+  }
+}
+.truck-remove-bold {
+  &:before {
+    content: $truck-remove-bold; 
+  }
+}
+.truck-fast-bold {
+  &:before {
+    content: $truck-fast-bold; 
+  }
+}
+.truck-bold {
+  &:before {
+    content: $truck-bold; 
+  }
+}
+.triangle-bold {
+  &:before {
+    content: $triangle-bold; 
+  }
+}
+.trend-up-bold {
+  &:before {
+    content: $trend-up-bold; 
+  }
+}
+.trend-down-bold {
+  &:before {
+    content: $trend-down-bold; 
+  }
+}
+.tree-bold {
+  &:before {
+    content: $tree-bold; 
+  }
+}
+.trash-bold {
+  &:before {
+    content: $trash-bold; 
+  }
+}
+.translate-bold {
+  &:before {
+    content: $translate-bold; 
+  }
+}
+.transaction-minus-bold {
+  &:before {
+    content: $transaction-minus-bold; 
+  }
+}
+.trade-bold {
+  &:before {
+    content: $trade-bold; 
+  }
+}
+.toggle-on-circle-bold {
+  &:before {
+    content: $toggle-on-circle-bold; 
+  }
+}
+.toggle-on-bold {
+  &:before {
+    content: $toggle-on-bold; 
+  }
+}
+.toggle-off-circle-bold {
+  &:before {
+    content: $toggle-off-circle-bold; 
+  }
+}
+.toggle-off-bold {
+  &:before {
+    content: $toggle-off-bold; 
+  }
+}
+.timer-start-bold {
+  &:before {
+    content: $timer-start-bold; 
+  }
+}
+.timer-pause-bold {
+  &:before {
+    content: $timer-pause-bold; 
+  }
+}
+.timer-1-bold {
+  &:before {
+    content: $timer-1-bold; 
+  }
+}
+.timer-bold {
+  &:before {
+    content: $timer-bold; 
+  }
+}
+.tick-square-bold {
+  &:before {
+    content: $tick-square-bold; 
+  }
+}
+.ticket-star-bold {
+  &:before {
+    content: $ticket-star-bold; 
+  }
+}
+.ticket-expired-bold {
+  &:before {
+    content: $ticket-expired-bold; 
+  }
+}
+.ticket-discount-bold {
+  &:before {
+    content: $ticket-discount-bold; 
+  }
+}
+.ticket-2-bold {
+  &:before {
+    content: $ticket-2-bold; 
+  }
+}
+.ticket-bold {
+  &:before {
+    content: $ticket-bold; 
+  }
+}
+.tick-circle-bold {
+  &:before {
+    content: $tick-circle-bold; 
+  }
+}
+.text-underline-bold {
+  &:before {
+    content: $text-underline-bold; 
+  }
+}
+.text-italic-bold {
+  &:before {
+    content: $text-italic-bold; 
+  }
+}
+.text-bold-bold {
+  &:before {
+    content: $text-bold-bold; 
+  }
+}
+.text-block-bold {
+  &:before {
+    content: $text-block-bold; 
+  }
+}
+.textalign-right-bold {
+  &:before {
+    content: $textalign-right-bold; 
+  }
+}
+.textalign-left-bold {
+  &:before {
+    content: $textalign-left-bold; 
+  }
+}
+.textalign-justifyright-bold {
+  &:before {
+    content: $textalign-justifyright-bold; 
+  }
+}
+.textalign-justifyleft-bold {
+  &:before {
+    content: $textalign-justifyleft-bold; 
+  }
+}
+.textalign-justifycenter-bold {
+  &:before {
+    content: $textalign-justifycenter-bold; 
+  }
+}
+.textalign-center-bold {
+  &:before {
+    content: $textalign-center-bold; 
+  }
+}
+.text-bold {
+  &:before {
+    content: $text-bold; 
+  }
+}
+.teacher-bold {
+  &:before {
+    content: $teacher-bold; 
+  }
+}
+.task-square-bold {
+  &:before {
+    content: $task-square-bold; 
+  }
+}
+.task-bold {
+  &:before {
+    content: $task-bold; 
+  }
+}
+.tag-user-bold {
+  &:before {
+    content: $tag-user-bold; 
+  }
+}
+.tag-right-bold {
+  &:before {
+    content: $tag-right-bold; 
+  }
+}
+.tag-cross-bold {
+  &:before {
+    content: $tag-cross-bold; 
+  }
+}
+.tag-2-bold {
+  &:before {
+    content: $tag-2-bold; 
+  }
+}
+.tag-bold {
+  &:before {
+    content: $tag-bold; 
+  }
+}
+.sun-fog-bold {
+  &:before {
+    content: $sun-fog-bold; 
+  }
+}
+.sun-1-bold {
+  &:before {
+    content: $sun-1-bold; 
+  }
+}
+.sun-bold {
+  &:before {
+    content: $sun-bold; 
+  }
+}
+.subtitle-bold {
+  &:before {
+    content: $subtitle-bold; 
+  }
+}
+.strongbox-2-bold {
+  &:before {
+    content: $strongbox-2-bold; 
+  }
+}
+.strongbox-bold {
+  &:before {
+    content: $strongbox-bold; 
+  }
+}
+.story-bold {
+  &:before {
+    content: $story-bold; 
+  }
+}
+.stop-circle-bold {
+  &:before {
+    content: $stop-circle-bold; 
+  }
+}
+.stop-bold {
+  &:before {
+    content: $stop-bold; 
+  }
+}
+.stickynote-bold {
+  &:before {
+    content: $stickynote-bold; 
+  }
+}
+.sticker-bold {
+  &:before {
+    content: $sticker-bold; 
+  }
+}
+.status-up-bold {
+  &:before {
+    content: $status-up-bold; 
+  }
+}
+.status-bold {
+  &:before {
+    content: $status-bold; 
+  }
+}
+.star-slash-bold {
+  &:before {
+    content: $star-slash-bold; 
+  }
+}
+.star-1-bold {
+  &:before {
+    content: $star-1-bold; 
+  }
+}
+.star-bold {
+  &:before {
+    content: $star-bold; 
+  }
+}
+.speedometer-bold {
+  &:before {
+    content: $speedometer-bold; 
+  }
+}
+.speaker-bold {
+  &:before {
+    content: $speaker-bold; 
+  }
+}
+.sound-bold {
+  &:before {
+    content: $sound-bold; 
+  }
+}
+.sort-bold {
+  &:before {
+    content: $sort-bold; 
+  }
+}
+.sms-tracking-bold {
+  &:before {
+    content: $sms-tracking-bold; 
+  }
+}
+.sms-star-bold {
+  &:before {
+    content: $sms-star-bold; 
+  }
+}
+.sms-search-bold {
+  &:before {
+    content: $sms-search-bold; 
+  }
+}
+.sms-notification-bold {
+  &:before {
+    content: $sms-notification-bold; 
+  }
+}
+.sms-edit-bold {
+  &:before {
+    content: $sms-edit-bold; 
+  }
+}
+.sms-bold {
+  &:before {
+    content: $sms-bold; 
+  }
+}
+.smileys-bold {
+  &:before {
+    content: $smileys-bold; 
+  }
+}
+.smart-home-bold {
+  &:before {
+    content: $smart-home-bold; 
+  }
+}
+.smart-car-bold {
+  &:before {
+    content: $smart-car-bold; 
+  }
+}
+.smallcaps-bold {
+  &:before {
+    content: $smallcaps-bold; 
+  }
+}
+.slider-vertical-1-bold {
+  &:before {
+    content: $slider-vertical-1-bold; 
+  }
+}
+.slider-vertical-bold {
+  &:before {
+    content: $slider-vertical-bold; 
+  }
+}
+.slider-horizontal-1-bold {
+  &:before {
+    content: $slider-horizontal-1-bold; 
+  }
+}
+.slider-horizontal-bold {
+  &:before {
+    content: $slider-horizontal-bold; 
+  }
+}
+.slider-bold {
+  &:before {
+    content: $slider-bold; 
+  }
+}
+.slash-bold {
+  &:before {
+    content: $slash-bold; 
+  }
+}
+.size-bold {
+  &:before {
+    content: $size-bold; 
+  }
+}
+.simcard-2-bold {
+  &:before {
+    content: $simcard-2-bold; 
+  }
+}
+.simcard-1-bold {
+  &:before {
+    content: $simcard-1-bold; 
+  }
+}
+.simcard-bold {
+  &:before {
+    content: $simcard-bold; 
+  }
+}
+.signpost-bold {
+  &:before {
+    content: $signpost-bold; 
+  }
+}
+.sidebar-top-bold {
+  &:before {
+    content: $sidebar-top-bold; 
+  }
+}
+.sidebar-right-bold {
+  &:before {
+    content: $sidebar-right-bold; 
+  }
+}
+.sidebar-left-bold {
+  &:before {
+    content: $sidebar-left-bold; 
+  }
+}
+.sidebar-bottom-bold {
+  &:before {
+    content: $sidebar-bottom-bold; 
+  }
+}
+.shuffle-bold {
+  &:before {
+    content: $shuffle-bold; 
+  }
+}
+.shop-remove-bold {
+  &:before {
+    content: $shop-remove-bold; 
+  }
+}
+.shopping-cart-bold {
+  &:before {
+    content: $shopping-cart-bold; 
+  }
+}
+.shopping-bag-bold {
+  &:before {
+    content: $shopping-bag-bold; 
+  }
+}
+.shop-add-bold {
+  &:before {
+    content: $shop-add-bold; 
+  }
+}
+.shop-bold {
+  &:before {
+    content: $shop-bold; 
+  }
+}
+.ship-bold {
+  &:before {
+    content: $ship-bold; 
+  }
+}
+.shield-tick-bold {
+  &:before {
+    content: $shield-tick-bold; 
+  }
+}
+.shield-slash-bold {
+  &:before {
+    content: $shield-slash-bold; 
+  }
+}
+.shield-security-bold {
+  &:before {
+    content: $shield-security-bold; 
+  }
+}
+.shield-search-bold {
+  &:before {
+    content: $shield-search-bold; 
+  }
+}
+.shield-cross-bold {
+  &:before {
+    content: $shield-cross-bold; 
+  }
+}
+.share-bold {
+  &:before {
+    content: $share-bold; 
+  }
+}
+.shapes-1-bold {
+  &:before {
+    content: $shapes-1-bold; 
+  }
+}
+.shapes-bold {
+  &:before {
+    content: $shapes-bold; 
+  }
+}
+.settings-bold {
+  &:before {
+    content: $settings-bold; 
+  }
+}
+.setting-5-bold {
+  &:before {
+    content: $setting-5-bold; 
+  }
+}
+.setting-4-bold {
+  &:before {
+    content: $setting-4-bold; 
+  }
+}
+.setting-3-bold {
+  &:before {
+    content: $setting-3-bold; 
+  }
+}
+.setting-2-bold {
+  &:before {
+    content: $setting-2-bold; 
+  }
+}
+.setting-bold {
+  &:before {
+    content: $setting-bold; 
+  }
+}
+.send-square-bold {
+  &:before {
+    content: $send-square-bold; 
+  }
+}
+.send-sqaure-2-bold {
+  &:before {
+    content: $send-sqaure-2-bold; 
+  }
+}
+.send-2-bold {
+  &:before {
+    content: $send-2-bold; 
+  }
+}
+.send-1-bold {
+  &:before {
+    content: $send-1-bold; 
+  }
+}
+.send-bold {
+  &:before {
+    content: $send-bold; 
+  }
+}
+.security-user-bold {
+  &:before {
+    content: $security-user-bold; 
+  }
+}
+.security-time-bold {
+  &:before {
+    content: $security-time-bold; 
+  }
+}
+.security-safe-bold {
+  &:before {
+    content: $security-safe-bold; 
+  }
+}
+.security-card-bold {
+  &:before {
+    content: $security-card-bold; 
+  }
+}
+.security-bold {
+  &:before {
+    content: $security-bold; 
+  }
+}
+.search-zoom-out-1-bold {
+  &:before {
+    content: $search-zoom-out-1-bold; 
+  }
+}
+.search-zoom-out-bold {
+  &:before {
+    content: $search-zoom-out-bold; 
+  }
+}
+.search-zoom-in-1-bold {
+  &:before {
+    content: $search-zoom-in-1-bold; 
+  }
+}
+.search-zoom-in-bold {
+  &:before {
+    content: $search-zoom-in-bold; 
+  }
+}
+.search-status-1-bold {
+  &:before {
+    content: $search-status-1-bold; 
+  }
+}
+.search-status-bold {
+  &:before {
+    content: $search-status-bold; 
+  }
+}
+.search-normal-1-bold {
+  &:before {
+    content: $search-normal-1-bold; 
+  }
+}
+.search-normal-bold {
+  &:before {
+    content: $search-normal-bold; 
+  }
+}
+.search-favorite-1-bold {
+  &:before {
+    content: $search-favorite-1-bold; 
+  }
+}
+.search-favorite-bold {
+  &:before {
+    content: $search-favorite-bold; 
+  }
+}
+.scroll-bold {
+  &:before {
+    content: $scroll-bold; 
+  }
+}
+.screenmirroring-bold {
+  &:before {
+    content: $screenmirroring-bold; 
+  }
+}
+.scissor-1-bold {
+  &:before {
+    content: $scissor-1-bold; 
+  }
+}
+.scissor-bold {
+  &:before {
+    content: $scissor-bold; 
+  }
+}
+.scanning-bold {
+  &:before {
+    content: $scanning-bold; 
+  }
+}
+.scanner-bold {
+  &:before {
+    content: $scanner-bold; 
+  }
+}
+.scan-barcode-bold {
+  &:before {
+    content: $scan-barcode-bold; 
+  }
+}
+.scan-bold {
+  &:before {
+    content: $scan-bold; 
+  }
+}
+.save-remove-bold {
+  &:before {
+    content: $save-remove-bold; 
+  }
+}
+.save-minus-bold {
+  &:before {
+    content: $save-minus-bold; 
+  }
+}
+.save-add-bold {
+  &:before {
+    content: $save-add-bold; 
+  }
+}
+.save-2-bold {
+  &:before {
+    content: $save-2-bold; 
+  }
+}
+.sagittarius-bold {
+  &:before {
+    content: $sagittarius-bold; 
+  }
+}
+.safe-home-bold {
+  &:before {
+    content: $safe-home-bold; 
+  }
+}
+.rulerpen-bold {
+  &:before {
+    content: $rulerpen-bold; 
+  }
+}
+.ruler-bold {
+  &:before {
+    content: $ruler-bold; 
+  }
+}
+.row-vertical-bold {
+  &:before {
+    content: $row-vertical-bold; 
+  }
+}
+.row-horizontal-bold {
+  &:before {
+    content: $row-horizontal-bold; 
+  }
+}
+.routing-2-bold {
+  &:before {
+    content: $routing-2-bold; 
+  }
+}
+.routing-bold {
+  &:before {
+    content: $routing-bold; 
+  }
+}
+.route-square-bold {
+  &:before {
+    content: $route-square-bold; 
+  }
+}
+.rotate-right-1-bold {
+  &:before {
+    content: $rotate-right-1-bold; 
+  }
+}
+.rotate-right-bold {
+  &:before {
+    content: $rotate-right-bold; 
+  }
+}
+.rotate-left-1-bold {
+  &:before {
+    content: $rotate-left-1-bold; 
+  }
+}
+.rotate-left-bold {
+  &:before {
+    content: $rotate-left-bold; 
+  }
+}
+.reserve-bold {
+  &:before {
+    content: $reserve-bold; 
+  }
+}
+.repeate-one-bold {
+  &:before {
+    content: $repeate-one-bold; 
+  }
+}
+.repeate-music-bold {
+  &:before {
+    content: $repeate-music-bold; 
+  }
+}
+.repeat-circle-bold {
+  &:before {
+    content: $repeat-circle-bold; 
+  }
+}
+.repeat-bold {
+  &:before {
+    content: $repeat-bold; 
+  }
+}
+.refresh-square-2-bold {
+  &:before {
+    content: $refresh-square-2-bold; 
+  }
+}
+.refresh-right-square-bold {
+  &:before {
+    content: $refresh-right-square-bold; 
+  }
+}
+.refresh-left-square-bold {
+  &:before {
+    content: $refresh-left-square-bold; 
+  }
+}
+.refresh-circle-bold {
+  &:before {
+    content: $refresh-circle-bold; 
+  }
+}
+.refresh-2-bold {
+  &:before {
+    content: $refresh-2-bold; 
+  }
+}
+.refresh-bold {
+  &:before {
+    content: $refresh-bold; 
+  }
+}
+.redo-bold {
+  &:before {
+    content: $redo-bold; 
+  }
+}
+.recovery-convert-bold {
+  &:before {
+    content: $recovery-convert-bold; 
+  }
+}
+.record-circle-bold {
+  &:before {
+    content: $record-circle-bold; 
+  }
+}
+.record-bold {
+  &:before {
+    content: $record-bold; 
+  }
+}
+.receive-square-2-bold {
+  &:before {
+    content: $receive-square-2-bold; 
+  }
+}
+.receive-square-bold {
+  &:before {
+    content: $receive-square-bold; 
+  }
+}
+.received-bold {
+  &:before {
+    content: $received-bold; 
+  }
+}
+.receipt-text-bold {
+  &:before {
+    content: $receipt-text-bold; 
+  }
+}
+.receipt-square-bold {
+  &:before {
+    content: $receipt-square-bold; 
+  }
+}
+.receipt-search-bold {
+  &:before {
+    content: $receipt-search-bold; 
+  }
+}
+.receipt-minus-bold {
+  &:before {
+    content: $receipt-minus-bold; 
+  }
+}
+.receipt-item-bold {
+  &:before {
+    content: $receipt-item-bold; 
+  }
+}
+.receipt-edit-bold {
+  &:before {
+    content: $receipt-edit-bold; 
+  }
+}
+.receipt-disscount-bold {
+  &:before {
+    content: $receipt-disscount-bold; 
+  }
+}
+.receipt-discount-bold {
+  &:before {
+    content: $receipt-discount-bold; 
+  }
+}
+.receipt-add-bold {
+  &:before {
+    content: $receipt-add-bold; 
+  }
+}
+.receipt-2-1-bold {
+  &:before {
+    content: $receipt-2-1-bold; 
+  }
+}
+.receipt-2-bold {
+  &:before {
+    content: $receipt-2-bold; 
+  }
+}
+.receipt-1-bold {
+  &:before {
+    content: $receipt-1-bold; 
+  }
+}
+.receipt-bold {
+  &:before {
+    content: $receipt-bold; 
+  }
+}
+.ranking-1-bold {
+  &:before {
+    content: $ranking-1-bold; 
+  }
+}
+.ranking-bold {
+  &:before {
+    content: $ranking-bold; 
+  }
+}
+.ram-2-bold {
+  &:before {
+    content: $ram-2-bold; 
+  }
+}
+.ram-bold {
+  &:before {
+    content: $ram-bold; 
+  }
+}
+.radio-bold {
+  &:before {
+    content: $radio-bold; 
+  }
+}
+.radar-2-bold {
+  &:before {
+    content: $radar-2-bold; 
+  }
+}
+.radar-1-bold {
+  &:before {
+    content: $radar-1-bold; 
+  }
+}
+.radar-bold {
+  &:before {
+    content: $radar-bold; 
+  }
+}
+.quote-up-square-bold {
+  &:before {
+    content: $quote-up-square-bold; 
+  }
+}
+.quote-up-circle-bold {
+  &:before {
+    content: $quote-up-circle-bold; 
+  }
+}
+.quote-up-bold {
+  &:before {
+    content: $quote-up-bold; 
+  }
+}
+.quote-down-square-bold {
+  &:before {
+    content: $quote-down-square-bold; 
+  }
+}
+.quote-down-circle-bold {
+  &:before {
+    content: $quote-down-circle-bold; 
+  }
+}
+.quote-down-bold {
+  &:before {
+    content: $quote-down-bold; 
+  }
+}
+.programming-arrows-bold {
+  &:before {
+    content: $programming-arrows-bold; 
+  }
+}
+.programming-arrow-bold {
+  &:before {
+    content: $programming-arrow-bold; 
+  }
+}
+.profile-tick-bold {
+  &:before {
+    content: $profile-tick-bold; 
+  }
+}
+.profile-remove-bold {
+  &:before {
+    content: $profile-remove-bold; 
+  }
+}
+.profile-delete-bold {
+  &:before {
+    content: $profile-delete-bold; 
+  }
+}
+.profile-circle-bold {
+  &:before {
+    content: $profile-circle-bold; 
+  }
+}
+.profile-add-bold {
+  &:before {
+    content: $profile-add-bold; 
+  }
+}
+.profile-2user-bold {
+  &:before {
+    content: $profile-2user-bold; 
+  }
+}
+.printer-slash-bold {
+  &:before {
+    content: $printer-slash-bold; 
+  }
+}
+.printer-bold {
+  &:before {
+    content: $printer-bold; 
+  }
+}
+.previous-bold {
+  &:before {
+    content: $previous-bold; 
+  }
+}
+.presention-chart-bold {
+  &:before {
+    content: $presention-chart-bold; 
+  }
+}
+.play-remove-bold {
+  &:before {
+    content: $play-remove-bold; 
+  }
+}
+.play-cricle-bold {
+  &:before {
+    content: $play-cricle-bold; 
+  }
+}
+.play-circle-bold {
+  &:before {
+    content: $play-circle-bold; 
+  }
+}
+.play-add-bold {
+  &:before {
+    content: $play-add-bold; 
+  }
+}
+.play-bold {
+  &:before {
+    content: $play-bold; 
+  }
+}
+.picture-frame-bold {
+  &:before {
+    content: $picture-frame-bold; 
+  }
+}
+.pharagraphspacing-bold {
+  &:before {
+    content: $pharagraphspacing-bold; 
+  }
+}
+.pet-bold {
+  &:before {
+    content: $pet-bold; 
+  }
+}
+.personalcard-bold {
+  &:before {
+    content: $personalcard-bold; 
+  }
+}
+.percentage-square-bold {
+  &:before {
+    content: $percentage-square-bold; 
+  }
+}
+.percentage-circle-bold {
+  &:before {
+    content: $percentage-circle-bold; 
+  }
+}
+.people-bold {
+  &:before {
+    content: $people-bold; 
+  }
+}
+.pen-tool-2-bold {
+  &:before {
+    content: $pen-tool-2-bold; 
+  }
+}
+.pen-tool-bold {
+  &:before {
+    content: $pen-tool-bold; 
+  }
+}
+.pen-remove-bold {
+  &:before {
+    content: $pen-remove-bold; 
+  }
+}
+.pen-close-bold {
+  &:before {
+    content: $pen-close-bold; 
+  }
+}
+.pen-add-bold {
+  &:before {
+    content: $pen-add-bold; 
+  }
+}
+.pause-circle-bold {
+  &:before {
+    content: $pause-circle-bold; 
+  }
+}
+.pause-bold {
+  &:before {
+    content: $pause-bold; 
+  }
+}
+.path-square-bold {
+  &:before {
+    content: $path-square-bold; 
+  }
+}
+.path-2-bold {
+  &:before {
+    content: $path-2-bold; 
+  }
+}
+.path-bold {
+  &:before {
+    content: $path-bold; 
+  }
+}
+.password-check-bold {
+  &:before {
+    content: $password-check-bold; 
+  }
+}
+.paperclip-2-bold {
+  &:before {
+    content: $paperclip-2-bold; 
+  }
+}
+.paperclip-bold {
+  &:before {
+    content: $paperclip-bold; 
+  }
+}
+.paintbucket-bold {
+  &:before {
+    content: $paintbucket-bold; 
+  }
+}
+.omega-square-bold {
+  &:before {
+    content: $omega-square-bold; 
+  }
+}
+.omega-circle-bold {
+  &:before {
+    content: $omega-circle-bold; 
+  }
+}
+.notification-status-bold {
+  &:before {
+    content: $notification-status-bold; 
+  }
+}
+.notification-favorite-bold {
+  &:before {
+    content: $notification-favorite-bold; 
+  }
+}
+.notification-bing-bold {
+  &:before {
+    content: $notification-bing-bold; 
+  }
+}
+.notification-1-bold {
+  &:before {
+    content: $notification-1-bold; 
+  }
+}
+.notification-bold {
+  &:before {
+    content: $notification-bold; 
+  }
+}
+.note-text-bold {
+  &:before {
+    content: $note-text-bold; 
+  }
+}
+.note-square-bold {
+  &:before {
+    content: $note-square-bold; 
+  }
+}
+.note-remove-bold {
+  &:before {
+    content: $note-remove-bold; 
+  }
+}
+.note-favorite-bold {
+  &:before {
+    content: $note-favorite-bold; 
+  }
+}
+.note-add-bold {
+  &:before {
+    content: $note-add-bold; 
+  }
+}
+.note-21-bold {
+  &:before {
+    content: $note-21-bold; 
+  }
+}
+.note-2-bold {
+  &:before {
+    content: $note-2-bold; 
+  }
+}
+.note-1-bold {
+  &:before {
+    content: $note-1-bold; 
+  }
+}
+.note-bold {
+  &:before {
+    content: $note-bold; 
+  }
+}
+.next-bold {
+  &:before {
+    content: $next-bold; 
+  }
+}
+.music-square-search-bold {
+  &:before {
+    content: $music-square-search-bold; 
+  }
+}
+.music-square-remove-bold {
+  &:before {
+    content: $music-square-remove-bold; 
+  }
+}
+.music-square-add-bold {
+  &:before {
+    content: $music-square-add-bold; 
+  }
+}
+.music-square-bold {
+  &:before {
+    content: $music-square-bold; 
+  }
+}
+.music-playlist-bold {
+  &:before {
+    content: $music-playlist-bold; 
+  }
+}
+.music-play-bold {
+  &:before {
+    content: $music-play-bold; 
+  }
+}
+.musicnote-bold {
+  &:before {
+    content: $musicnote-bold; 
+  }
+}
+.music-library-2-bold {
+  &:before {
+    content: $music-library-2-bold; 
+  }
+}
+.music-filter-bold {
+  &:before {
+    content: $music-filter-bold; 
+  }
+}
+.music-dashboard-bold {
+  &:before {
+    content: $music-dashboard-bold; 
+  }
+}
+.music-circle-bold {
+  &:before {
+    content: $music-circle-bold; 
+  }
+}
+.music-bold {
+  &:before {
+    content: $music-bold; 
+  }
+}
+.mouse-square-bold {
+  &:before {
+    content: $mouse-square-bold; 
+  }
+}
+.mouse-circle-bold {
+  &:before {
+    content: $mouse-circle-bold; 
+  }
+}
+.mouse-1-bold {
+  &:before {
+    content: $mouse-1-bold; 
+  }
+}
+.mouse-bold {
+  &:before {
+    content: $mouse-bold; 
+  }
+}
+.more-square-bold {
+  &:before {
+    content: $more-square-bold; 
+  }
+}
+.more-circle-bold {
+  &:before {
+    content: $more-circle-bold; 
+  }
+}
+.more-2-bold {
+  &:before {
+    content: $more-2-bold; 
+  }
+}
+.more-bold {
+  &:before {
+    content: $more-bold; 
+  }
+}
+.moon-bold {
+  &:before {
+    content: $moon-bold; 
+  }
+}
+.monitor-recorder-bold {
+  &:before {
+    content: $monitor-recorder-bold; 
+  }
+}
+.monitor-mobbile-bold {
+  &:before {
+    content: $monitor-mobbile-bold; 
+  }
+}
+.monitor-bold {
+  &:before {
+    content: $monitor-bold; 
+  }
+}
+.money-time-bold {
+  &:before {
+    content: $money-time-bold; 
+  }
+}
+.money-tick-bold {
+  &:before {
+    content: $money-tick-bold; 
+  }
+}
+.money-send-bold {
+  &:before {
+    content: $money-send-bold; 
+  }
+}
+.moneys-bold {
+  &:before {
+    content: $moneys-bold; 
+  }
+}
+.money-remove-bold {
+  &:before {
+    content: $money-remove-bold; 
+  }
+}
+.money-recive-bold {
+  &:before {
+    content: $money-recive-bold; 
+  }
+}
+.money-forbidden-bold {
+  &:before {
+    content: $money-forbidden-bold; 
+  }
+}
+.money-change-bold {
+  &:before {
+    content: $money-change-bold; 
+  }
+}
+.money-add-bold {
+  &:before {
+    content: $money-add-bold; 
+  }
+}
+.money-4-bold {
+  &:before {
+    content: $money-4-bold; 
+  }
+}
+.money-3-bold {
+  &:before {
+    content: $money-3-bold; 
+  }
+}
+.money-2-bold {
+  &:before {
+    content: $money-2-bold; 
+  }
+}
+.money-bold {
+  &:before {
+    content: $money-bold; 
+  }
+}
+.mobile-programming-bold {
+  &:before {
+    content: $mobile-programming-bold; 
+  }
+}
+.mobile-bold {
+  &:before {
+    content: $mobile-bold; 
+  }
+}
+.mirroring-screen-bold {
+  &:before {
+    content: $mirroring-screen-bold; 
+  }
+}
+.mirror-bold {
+  &:before {
+    content: $mirror-bold; 
+  }
+}
+.minus-square-bold {
+  &:before {
+    content: $minus-square-bold; 
+  }
+}
+.minus-cirlce-bold {
+  &:before {
+    content: $minus-cirlce-bold; 
+  }
+}
+.minus-bold {
+  &:before {
+    content: $minus-bold; 
+  }
+}
+.mini-music-sqaure-bold {
+  &:before {
+    content: $mini-music-sqaure-bold; 
+  }
+}
+.milk-bold {
+  &:before {
+    content: $milk-bold; 
+  }
+}
+.microscope-bold {
+  &:before {
+    content: $microscope-bold; 
+  }
+}
+.microphone-slash-1-bold {
+  &:before {
+    content: $microphone-slash-1-bold; 
+  }
+}
+.microphone-slash-bold {
+  &:before {
+    content: $microphone-slash-bold; 
+  }
+}
+.microphone-2-bold {
+  &:before {
+    content: $microphone-2-bold; 
+  }
+}
+.microphone-bold {
+  &:before {
+    content: $microphone-bold; 
+  }
+}
+.message-time-bold {
+  &:before {
+    content: $message-time-bold; 
+  }
+}
+.message-tick-bold {
+  &:before {
+    content: $message-tick-bold; 
+  }
+}
+.message-text-1-bold {
+  &:before {
+    content: $message-text-1-bold; 
+  }
+}
+.message-text-bold {
+  &:before {
+    content: $message-text-bold; 
+  }
+}
+.message-square-bold {
+  &:before {
+    content: $message-square-bold; 
+  }
+}
+.message-search-bold {
+  &:before {
+    content: $message-search-bold; 
+  }
+}
+.messages-3-bold {
+  &:before {
+    content: $messages-3-bold; 
+  }
+}
+.messages-2-bold {
+  &:before {
+    content: $messages-2-bold; 
+  }
+}
+.messages-1-bold {
+  &:before {
+    content: $messages-1-bold; 
+  }
+}
+.messages-bold {
+  &:before {
+    content: $messages-bold; 
+  }
+}
+.message-remove-bold {
+  &:before {
+    content: $message-remove-bold; 
+  }
+}
+.message-question-bold {
+  &:before {
+    content: $message-question-bold; 
+  }
+}
+.message-programming-bold {
+  &:before {
+    content: $message-programming-bold; 
+  }
+}
+.message-notif-bold {
+  &:before {
+    content: $message-notif-bold; 
+  }
+}
+.message-minus-bold {
+  &:before {
+    content: $message-minus-bold; 
+  }
+}
+.message-favorite-bold {
+  &:before {
+    content: $message-favorite-bold; 
+  }
+}
+.message-edit-bold {
+  &:before {
+    content: $message-edit-bold; 
+  }
+}
+.message-circle-bold {
+  &:before {
+    content: $message-circle-bold; 
+  }
+}
+.message-add-1-bold {
+  &:before {
+    content: $message-add-1-bold; 
+  }
+}
+.message-add-bold {
+  &:before {
+    content: $message-add-bold; 
+  }
+}
+.message-2-bold {
+  &:before {
+    content: $message-2-bold; 
+  }
+}
+.message-bold {
+  &:before {
+    content: $message-bold; 
+  }
+}
+.menu-board-bold {
+  &:before {
+    content: $menu-board-bold; 
+  }
+}
+.menu-1-bold {
+  &:before {
+    content: $menu-1-bold; 
+  }
+}
+.menu-bold {
+  &:before {
+    content: $menu-bold; 
+  }
+}
+.medal-star-bold {
+  &:before {
+    content: $medal-star-bold; 
+  }
+}
+.medal-bold {
+  &:before {
+    content: $medal-bold; 
+  }
+}
+.maximize-circle-bold {
+  &:before {
+    content: $maximize-circle-bold; 
+  }
+}
+.maximize-21-bold {
+  &:before {
+    content: $maximize-21-bold; 
+  }
+}
+.maximize-4-bold {
+  &:before {
+    content: $maximize-4-bold; 
+  }
+}
+.maximize-3-bold {
+  &:before {
+    content: $maximize-3-bold; 
+  }
+}
+.maximize-2-bold {
+  &:before {
+    content: $maximize-2-bold; 
+  }
+}
+.maximize-1-bold {
+  &:before {
+    content: $maximize-1-bold; 
+  }
+}
+.maximize-bold {
+  &:before {
+    content: $maximize-bold; 
+  }
+}
+.math-bold {
+  &:before {
+    content: $math-bold; 
+  }
+}
+.mask-2-bold {
+  &:before {
+    content: $mask-2-bold; 
+  }
+}
+.mask-1-bold {
+  &:before {
+    content: $mask-1-bold; 
+  }
+}
+.mask-bold {
+  &:before {
+    content: $mask-bold; 
+  }
+}
+.map-1-bold {
+  &:before {
+    content: $map-1-bold; 
+  }
+}
+.map-bold {
+  &:before {
+    content: $map-bold; 
+  }
+}
+.man-bold {
+  &:before {
+    content: $man-bold; 
+  }
+}
+.main-component-bold {
+  &:before {
+    content: $main-component-bold; 
+  }
+}
+.magic-star-bold {
+  &:before {
+    content: $magic-star-bold; 
+  }
+}
+.magicpen-bold {
+  &:before {
+    content: $magicpen-bold; 
+  }
+}
+.lovely-bold {
+  &:before {
+    content: $lovely-bold; 
+  }
+}
+.logout-1-bold {
+  &:before {
+    content: $logout-1-bold; 
+  }
+}
+.logout-bold {
+  &:before {
+    content: $logout-bold; 
+  }
+}
+.login-1-bold {
+  &:before {
+    content: $login-1-bold; 
+  }
+}
+.login-bold {
+  &:before {
+    content: $login-bold; 
+  }
+}
+.lock-slash-bold {
+  &:before {
+    content: $lock-slash-bold; 
+  }
+}
+.lock-circle-bold {
+  &:before {
+    content: $lock-circle-bold; 
+  }
+}
+.lock-1-bold {
+  &:before {
+    content: $lock-1-bold; 
+  }
+}
+.lock-bold {
+  &:before {
+    content: $lock-bold; 
+  }
+}
+.location-tick-bold {
+  &:before {
+    content: $location-tick-bold; 
+  }
+}
+.location-slash-bold {
+  &:before {
+    content: $location-slash-bold; 
+  }
+}
+.location-minus-bold {
+  &:before {
+    content: $location-minus-bold; 
+  }
+}
+.location-cross-bold {
+  &:before {
+    content: $location-cross-bold; 
+  }
+}
+.location-add-bold {
+  &:before {
+    content: $location-add-bold; 
+  }
+}
+.location-bold {
+  &:before {
+    content: $location-bold; 
+  }
+}
+.link-square-bold {
+  &:before {
+    content: $link-square-bold; 
+  }
+}
+.link-circle-bold {
+  &:before {
+    content: $link-circle-bold; 
+  }
+}
+.link-21-bold {
+  &:before {
+    content: $link-21-bold; 
+  }
+}
+.link-2-bold {
+  &:before {
+    content: $link-2-bold; 
+  }
+}
+.link-1-bold {
+  &:before {
+    content: $link-1-bold; 
+  }
+}
+.link-bold {
+  &:before {
+    content: $link-bold; 
+  }
+}
+.like-tag-bold {
+  &:before {
+    content: $like-tag-bold; 
+  }
+}
+.like-shapes-bold {
+  &:before {
+    content: $like-shapes-bold; 
+  }
+}
+.like-dislike-bold {
+  &:before {
+    content: $like-dislike-bold; 
+  }
+}
+.like-1-bold {
+  &:before {
+    content: $like-1-bold; 
+  }
+}
+.like-bold {
+  &:before {
+    content: $like-bold; 
+  }
+}
+.lifebuoy-bold {
+  &:before {
+    content: $lifebuoy-bold; 
+  }
+}
+.level-bold {
+  &:before {
+    content: $level-bold; 
+  }
+}
+.layer-bold {
+  &:before {
+    content: $layer-bold; 
+  }
+}
+.language-square-bold {
+  &:before {
+    content: $language-square-bold; 
+  }
+}
+.language-circle-bold {
+  &:before {
+    content: $language-circle-bold; 
+  }
+}
+.lamp-slash-bold {
+  &:before {
+    content: $lamp-slash-bold; 
+  }
+}
+.lamp-on-bold {
+  &:before {
+    content: $lamp-on-bold; 
+  }
+}
+.lamp-charge-bold {
+  &:before {
+    content: $lamp-charge-bold; 
+  }
+}
+.lamp-1-bold {
+  &:before {
+    content: $lamp-1-bold; 
+  }
+}
+.lamp-bold {
+  &:before {
+    content: $lamp-bold; 
+  }
+}
+.key-square-bold {
+  &:before {
+    content: $key-square-bold; 
+  }
+}
+.keyboard-open-bold {
+  &:before {
+    content: $keyboard-open-bold; 
+  }
+}
+.keyboard-bold {
+  &:before {
+    content: $keyboard-bold; 
+  }
+}
+.key-bold {
+  &:before {
+    content: $key-bold; 
+  }
+}
+.kanban-bold {
+  &:before {
+    content: $kanban-bold; 
+  }
+}
+.judge-bold {
+  &:before {
+    content: $judge-bold; 
+  }
+}
+.instagram-bold {
+  &:before {
+    content: $instagram-bold; 
+  }
+}
+.information-bold {
+  &:before {
+    content: $information-bold; 
+  }
+}
+.info-circle-bold {
+  &:before {
+    content: $info-circle-bold; 
+  }
+}
+.import-3-bold {
+  &:before {
+    content: $import-3-bold; 
+  }
+}
+.import-2-bold {
+  &:before {
+    content: $import-2-bold; 
+  }
+}
+.import-1-bold {
+  &:before {
+    content: $import-1-bold; 
+  }
+}
+.import-bold {
+  &:before {
+    content: $import-bold; 
+  }
+}
+.image-bold {
+  &:before {
+    content: $image-bold; 
+  }
+}
+.house-2-bold {
+  &:before {
+    content: $house-2-bold; 
+  }
+}
+.house-bold {
+  &:before {
+    content: $house-bold; 
+  }
+}
+.hospital-bold {
+  &:before {
+    content: $hospital-bold; 
+  }
+}
+.home-wifi-bold {
+  &:before {
+    content: $home-wifi-bold; 
+  }
+}
+.home-trend-up-bold {
+  &:before {
+    content: $home-trend-up-bold; 
+  }
+}
+.home-trend-down-bold {
+  &:before {
+    content: $home-trend-down-bold; 
+  }
+}
+.home-hashtag-bold {
+  &:before {
+    content: $home-hashtag-bold; 
+  }
+}
+.home-2-bold {
+  &:before {
+    content: $home-2-bold; 
+  }
+}
+.home-1-bold {
+  &:before {
+    content: $home-1-bold; 
+  }
+}
+.home-bold {
+  &:before {
+    content: $home-bold; 
+  }
+}
+.hierarchy-square-3-bold {
+  &:before {
+    content: $hierarchy-square-3-bold; 
+  }
+}
+.hierarchy-square-2-bold {
+  &:before {
+    content: $hierarchy-square-2-bold; 
+  }
+}
+.hierarchy-square-bold {
+  &:before {
+    content: $hierarchy-square-bold; 
+  }
+}
+.hierarchy-3-bold {
+  &:before {
+    content: $hierarchy-3-bold; 
+  }
+}
+.hierarchy-2-bold {
+  &:before {
+    content: $hierarchy-2-bold; 
+  }
+}
+.hierarchy-bold {
+  &:before {
+    content: $hierarchy-bold; 
+  }
+}
+.heart-tick-bold {
+  &:before {
+    content: $heart-tick-bold; 
+  }
+}
+.heart-slash-bold {
+  &:before {
+    content: $heart-slash-bold; 
+  }
+}
+.heart-search-bold {
+  &:before {
+    content: $heart-search-bold; 
+  }
+}
+.heart-remove-bold {
+  &:before {
+    content: $heart-remove-bold; 
+  }
+}
+.heart-edit-bold {
+  &:before {
+    content: $heart-edit-bold; 
+  }
+}
+.heart-circle-bold {
+  &:before {
+    content: $heart-circle-bold; 
+  }
+}
+.heart-add-bold {
+  &:before {
+    content: $heart-add-bold; 
+  }
+}
+.heart-bold {
+  &:before {
+    content: $heart-bold; 
+  }
+}
+.health-bold {
+  &:before {
+    content: $health-bold; 
+  }
+}
+.headphones-bold {
+  &:before {
+    content: $headphones-bold; 
+  }
+}
+.headphone-bold {
+  &:before {
+    content: $headphone-bold; 
+  }
+}
+.hashtag-up-bold {
+  &:before {
+    content: $hashtag-up-bold; 
+  }
+}
+.hashtag-down-bold {
+  &:before {
+    content: $hashtag-down-bold; 
+  }
+}
+.hashtag-1-bold {
+  &:before {
+    content: $hashtag-1-bold; 
+  }
+}
+.hashtag-bold {
+  &:before {
+    content: $hashtag-bold; 
+  }
+}
+.happyemoji-bold {
+  &:before {
+    content: $happyemoji-bold; 
+  }
+}
+.grid-lock-bold {
+  &:before {
+    content: $grid-lock-bold; 
+  }
+}
+.grid-eraser-bold {
+  &:before {
+    content: $grid-eraser-bold; 
+  }
+}
+.grid-edit-bold {
+  &:before {
+    content: $grid-edit-bold; 
+  }
+}
+.grid-9-bold {
+  &:before {
+    content: $grid-9-bold; 
+  }
+}
+.grid-8-bold {
+  &:before {
+    content: $grid-8-bold; 
+  }
+}
+.grid-7-bold {
+  &:before {
+    content: $grid-7-bold; 
+  }
+}
+.grid-6-bold {
+  &:before {
+    content: $grid-6-bold; 
+  }
+}
+.grid-5-bold {
+  &:before {
+    content: $grid-5-bold; 
+  }
+}
+.grid-4-bold {
+  &:before {
+    content: $grid-4-bold; 
+  }
+}
+.grid-3-bold {
+  &:before {
+    content: $grid-3-bold; 
+  }
+}
+.grid-2-bold {
+  &:before {
+    content: $grid-2-bold; 
+  }
+}
+.grid-1-bold {
+  &:before {
+    content: $grid-1-bold; 
+  }
+}
+.graph-bold {
+  &:before {
+    content: $graph-bold; 
+  }
+}
+.grammerly-bold {
+  &:before {
+    content: $grammerly-bold; 
+  }
+}
+.gps-slash-bold {
+  &:before {
+    content: $gps-slash-bold; 
+  }
+}
+.gps-bold {
+  &:before {
+    content: $gps-bold; 
+  }
+}
+.global-search-bold {
+  &:before {
+    content: $global-search-bold; 
+  }
+}
+.global-refresh-bold {
+  &:before {
+    content: $global-refresh-bold; 
+  }
+}
+.global-edit-bold {
+  &:before {
+    content: $global-edit-bold; 
+  }
+}
+.global-bold {
+  &:before {
+    content: $global-bold; 
+  }
+}
+.glass-1-bold {
+  &:before {
+    content: $glass-1-bold; 
+  }
+}
+.glass-bold {
+  &:before {
+    content: $glass-bold; 
+  }
+}
+.gift-bold {
+  &:before {
+    content: $gift-bold; 
+  }
+}
+.ghost-bold {
+  &:before {
+    content: $ghost-bold; 
+  }
+}
+.gemini-2-bold {
+  &:before {
+    content: $gemini-2-bold; 
+  }
+}
+.gemini-bold {
+  &:before {
+    content: $gemini-bold; 
+  }
+}
+.gas-station-bold {
+  &:before {
+    content: $gas-station-bold; 
+  }
+}
+.gameboy-bold {
+  &:before {
+    content: $gameboy-bold; 
+  }
+}
+.game-bold {
+  &:before {
+    content: $game-bold; 
+  }
+}
+.gallery-tick-bold {
+  &:before {
+    content: $gallery-tick-bold; 
+  }
+}
+.gallery-slash-bold {
+  &:before {
+    content: $gallery-slash-bold; 
+  }
+}
+.gallery-remove-bold {
+  &:before {
+    content: $gallery-remove-bold; 
+  }
+}
+.gallery-import-bold {
+  &:before {
+    content: $gallery-import-bold; 
+  }
+}
+.gallery-favorite-bold {
+  &:before {
+    content: $gallery-favorite-bold; 
+  }
+}
+.gallery-export-bold {
+  &:before {
+    content: $gallery-export-bold; 
+  }
+}
+.gallery-edit-bold {
+  &:before {
+    content: $gallery-edit-bold; 
+  }
+}
+.gallery-add-bold {
+  &:before {
+    content: $gallery-add-bold; 
+  }
+}
+.gallery-bold {
+  &:before {
+    content: $gallery-bold; 
+  }
+}
+.frame-4-bold {
+  &:before {
+    content: $frame-4-bold; 
+  }
+}
+.frame-3-bold {
+  &:before {
+    content: $frame-3-bold; 
+  }
+}
+.frame-2-bold {
+  &:before {
+    content: $frame-2-bold; 
+  }
+}
+.frame-1-bold {
+  &:before {
+    content: $frame-1-bold; 
+  }
+}
+.frame-bold {
+  &:before {
+    content: $frame-bold; 
+  }
+}
+.forward-square-bold {
+  &:before {
+    content: $forward-square-bold; 
+  }
+}
+.forward-item-bold {
+  &:before {
+    content: $forward-item-bold; 
+  }
+}
+.forward-15-seconds-bold {
+  &:before {
+    content: $forward-15-seconds-bold; 
+  }
+}
+.forward-10-seconds-bold {
+  &:before {
+    content: $forward-10-seconds-bold; 
+  }
+}
+.forward-5-seconds-bold {
+  &:before {
+    content: $forward-5-seconds-bold; 
+  }
+}
+.forward-bold {
+  &:before {
+    content: $forward-bold; 
+  }
+}
+.format-square-bold {
+  &:before {
+    content: $format-square-bold; 
+  }
+}
+.format-circle-bold {
+  &:before {
+    content: $format-circle-bold; 
+  }
+}
+.forbidden-2-bold {
+  &:before {
+    content: $forbidden-2-bold; 
+  }
+}
+.forbidden-bold {
+  &:before {
+    content: $forbidden-bold; 
+  }
+}
+.folder-open-bold {
+  &:before {
+    content: $folder-open-bold; 
+  }
+}
+.folder-minus-bold {
+  &:before {
+    content: $folder-minus-bold; 
+  }
+}
+.folder-favorite-bold {
+  &:before {
+    content: $folder-favorite-bold; 
+  }
+}
+.folder-cross-bold {
+  &:before {
+    content: $folder-cross-bold; 
+  }
+}
+.folder-connection-bold {
+  &:before {
+    content: $folder-connection-bold; 
+  }
+}
+.folder-cloud-bold {
+  &:before {
+    content: $folder-cloud-bold; 
+  }
+}
+.folder-add-bold {
+  &:before {
+    content: $folder-add-bold; 
+  }
+}
+.folder-2-bold {
+  &:before {
+    content: $folder-2-bold; 
+  }
+}
+.folder-bold {
+  &:before {
+    content: $folder-bold; 
+  }
+}
+.flash-slash-bold {
+  &:before {
+    content: $flash-slash-bold; 
+  }
+}
+.flash-circle-1-bold {
+  &:before {
+    content: $flash-circle-1-bold; 
+  }
+}
+.flash-circle-bold {
+  &:before {
+    content: $flash-circle-bold; 
+  }
+}
+.flash-1-bold {
+  &:before {
+    content: $flash-1-bold; 
+  }
+}
+.flash-bold {
+  &:before {
+    content: $flash-bold; 
+  }
+}
+.flag-2-bold {
+  &:before {
+    content: $flag-2-bold; 
+  }
+}
+.flag-bold {
+  &:before {
+    content: $flag-bold; 
+  }
+}
+.firstline-bold {
+  &:before {
+    content: $firstline-bold; 
+  }
+}
+.finger-scan-bold {
+  &:before {
+    content: $finger-scan-bold; 
+  }
+}
+.finger-cricle-bold {
+  &:before {
+    content: $finger-cricle-bold; 
+  }
+}
+.filter-tick-bold {
+  &:before {
+    content: $filter-tick-bold; 
+  }
+}
+.filter-square-bold {
+  &:before {
+    content: $filter-square-bold; 
+  }
+}
+.filter-search-bold {
+  &:before {
+    content: $filter-search-bold; 
+  }
+}
+.filter-remove-bold {
+  &:before {
+    content: $filter-remove-bold; 
+  }
+}
+.filter-edit-bold {
+  &:before {
+    content: $filter-edit-bold; 
+  }
+}
+.filter-add-bold {
+  &:before {
+    content: $filter-add-bold; 
+  }
+}
+.filter-bold {
+  &:before {
+    content: $filter-bold; 
+  }
+}
+.favorite-chart-bold {
+  &:before {
+    content: $favorite-chart-bold; 
+  }
+}
+.fatrows-bold {
+  &:before {
+    content: $fatrows-bold; 
+  }
+}
+.eye-slash-bold {
+  &:before {
+    content: $eye-slash-bold; 
+  }
+}
+.eye-bold {
+  &:before {
+    content: $eye-bold; 
+  }
+}
+.external-drive-bold {
+  &:before {
+    content: $external-drive-bold; 
+  }
+}
+.export-3-bold {
+  &:before {
+    content: $export-3-bold; 
+  }
+}
+.export-2-bold {
+  &:before {
+    content: $export-2-bold; 
+  }
+}
+.export-1-bold {
+  &:before {
+    content: $export-1-bold; 
+  }
+}
+.export-bold {
+  &:before {
+    content: $export-bold; 
+  }
+}
+.eraser-1-bold {
+  &:before {
+    content: $eraser-1-bold; 
+  }
+}
+.eraser-bold {
+  &:before {
+    content: $eraser-bold; 
+  }
+}
+.empty-wallet-time-bold {
+  &:before {
+    content: $empty-wallet-time-bold; 
+  }
+}
+.empty-wallet-tick-bold {
+  &:before {
+    content: $empty-wallet-tick-bold; 
+  }
+}
+.empty-wallet-remove-bold {
+  &:before {
+    content: $empty-wallet-remove-bold; 
+  }
+}
+.empty-wallet-change-bold {
+  &:before {
+    content: $empty-wallet-change-bold; 
+  }
+}
+.empty-wallet-add-bold {
+  &:before {
+    content: $empty-wallet-add-bold; 
+  }
+}
+.empty-wallet-bold {
+  &:before {
+    content: $empty-wallet-bold; 
+  }
+}
+.emoji-sad-bold {
+  &:before {
+    content: $emoji-sad-bold; 
+  }
+}
+.emoji-normal-bold {
+  &:before {
+    content: $emoji-normal-bold; 
+  }
+}
+.emoji-happy-bold {
+  &:before {
+    content: $emoji-happy-bold; 
+  }
+}
+.element-plus-bold {
+  &:before {
+    content: $element-plus-bold; 
+  }
+}
+.element-equal-bold {
+  &:before {
+    content: $element-equal-bold; 
+  }
+}
+.element-4-bold {
+  &:before {
+    content: $element-4-bold; 
+  }
+}
+.element-3-bold {
+  &:before {
+    content: $element-3-bold; 
+  }
+}
+.element-2-bold {
+  &:before {
+    content: $element-2-bold; 
+  }
+}
+.electricity-bold {
+  &:before {
+    content: $electricity-bold; 
+  }
+}
+.edit-2-bold {
+  &:before {
+    content: $edit-2-bold; 
+  }
+}
+.edit-bold {
+  &:before {
+    content: $edit-bold; 
+  }
+}
+.drop-bold {
+  &:before {
+    content: $drop-bold; 
+  }
+}
+.driving-bold {
+  &:before {
+    content: $driving-bold; 
+  }
+}
+.driver-refresh-bold {
+  &:before {
+    content: $driver-refresh-bold; 
+  }
+}
+.driver-2-bold {
+  &:before {
+    content: $driver-2-bold; 
+  }
+}
+.driver-bold {
+  &:before {
+    content: $driver-bold; 
+  }
+}
+.dollar-square-bold {
+  &:before {
+    content: $dollar-square-bold; 
+  }
+}
+.dollar-circle-bold {
+  &:before {
+    content: $dollar-circle-bold; 
+  }
+}
+.document-upload-bold {
+  &:before {
+    content: $document-upload-bold; 
+  }
+}
+.document-text-1-bold {
+  &:before {
+    content: $document-text-1-bold; 
+  }
+}
+.document-text-bold {
+  &:before {
+    content: $document-text-bold; 
+  }
+}
+.document-sketch-bold {
+  &:before {
+    content: $document-sketch-bold; 
+  }
+}
+.document-previous-bold {
+  &:before {
+    content: $document-previous-bold; 
+  }
+}
+.document-normal-bold {
+  &:before {
+    content: $document-normal-bold; 
+  }
+}
+.document-like-bold {
+  &:before {
+    content: $document-like-bold; 
+  }
+}
+.document-forward-bold {
+  &:before {
+    content: $document-forward-bold; 
+  }
+}
+.document-filter-bold {
+  &:before {
+    content: $document-filter-bold; 
+  }
+}
+.document-favorite-bold {
+  &:before {
+    content: $document-favorite-bold; 
+  }
+}
+.document-download-bold {
+  &:before {
+    content: $document-download-bold; 
+  }
+}
+.document-copy-bold {
+  &:before {
+    content: $document-copy-bold; 
+  }
+}
+.document-code-2-bold {
+  &:before {
+    content: $document-code-2-bold; 
+  }
+}
+.document-code-bold {
+  &:before {
+    content: $document-code-bold; 
+  }
+}
+.document-cloud-bold {
+  &:before {
+    content: $document-cloud-bold; 
+  }
+}
+.document-1-bold {
+  &:before {
+    content: $document-1-bold; 
+  }
+}
+.document-bold {
+  &:before {
+    content: $document-bold; 
+  }
+}
+.dislike-bold {
+  &:before {
+    content: $dislike-bold; 
+  }
+}
+.discover-1-bold {
+  &:before {
+    content: $discover-1-bold; 
+  }
+}
+.discover-bold {
+  &:before {
+    content: $discover-bold; 
+  }
+}
+.discount-shape-bold {
+  &:before {
+    content: $discount-shape-bold; 
+  }
+}
+.discount-circle-bold {
+  &:before {
+    content: $discount-circle-bold; 
+  }
+}
+.direct-up-bold {
+  &:before {
+    content: $direct-up-bold; 
+  }
+}
+.direct-send-bold {
+  &:before {
+    content: $direct-send-bold; 
+  }
+}
+.direct-right-bold {
+  &:before {
+    content: $direct-right-bold; 
+  }
+}
+.direct-notification-bold {
+  &:before {
+    content: $direct-notification-bold; 
+  }
+}
+.direct-normal-bold {
+  &:before {
+    content: $direct-normal-bold; 
+  }
+}
+.direct-left-bold {
+  &:before {
+    content: $direct-left-bold; 
+  }
+}
+.direct-inbox-bold {
+  &:before {
+    content: $direct-inbox-bold; 
+  }
+}
+.direct-down-bold {
+  &:before {
+    content: $direct-down-bold; 
+  }
+}
+.directbox-send-bold {
+  &:before {
+    content: $directbox-send-bold; 
+  }
+}
+.directbox-receive-bold {
+  &:before {
+    content: $directbox-receive-bold; 
+  }
+}
+.directbox-notif-bold {
+  &:before {
+    content: $directbox-notif-bold; 
+  }
+}
+.directbox-default-bold {
+  &:before {
+    content: $directbox-default-bold; 
+  }
+}
+.direct-bold {
+  &:before {
+    content: $direct-bold; 
+  }
+}
+.diamonds-bold {
+  &:before {
+    content: $diamonds-bold; 
+  }
+}
+.diagram-bold {
+  &:before {
+    content: $diagram-bold; 
+  }
+}
+.devices-1-bold {
+  &:before {
+    content: $devices-1-bold; 
+  }
+}
+.devices-bold {
+  &:before {
+    content: $devices-bold; 
+  }
+}
+.device-message-bold {
+  &:before {
+    content: $device-message-bold; 
+  }
+}
+.designtools-bold {
+  &:before {
+    content: $designtools-bold; 
+  }
+}
+.data-2-bold {
+  &:before {
+    content: $data-2-bold; 
+  }
+}
+.data-bold {
+  &:before {
+    content: $data-bold; 
+  }
+}
+.danger-bold {
+  &:before {
+    content: $danger-bold; 
+  }
+}
+.cup-bold {
+  &:before {
+    content: $cup-bold; 
+  }
+}
+.crown-1-bold {
+  &:before {
+    content: $crown-1-bold; 
+  }
+}
+.crown-bold {
+  &:before {
+    content: $crown-bold; 
+  }
+}
+.crop-bold {
+  &:before {
+    content: $crop-bold; 
+  }
+}
+.creative-commons-bold {
+  &:before {
+    content: $creative-commons-bold; 
+  }
+}
+.cpu-setting-bold {
+  &:before {
+    content: $cpu-setting-bold; 
+  }
+}
+.cpu-charge-bold {
+  &:before {
+    content: $cpu-charge-bold; 
+  }
+}
+.cpu-bold {
+  &:before {
+    content: $cpu-bold; 
+  }
+}
+.courthouse-bold {
+  &:before {
+    content: $courthouse-bold; 
+  }
+}
+.copy-success-bold {
+  &:before {
+    content: $copy-success-bold; 
+  }
+}
+.copyright-bold {
+  &:before {
+    content: $copyright-bold; 
+  }
+}
+.copy-bold {
+  &:before {
+    content: $copy-bold; 
+  }
+}
+.convertshape-2-bold {
+  &:before {
+    content: $convertshape-2-bold; 
+  }
+}
+.convertshape-bold {
+  &:before {
+    content: $convertshape-bold; 
+  }
+}
+.convert-card-bold {
+  &:before {
+    content: $convert-card-bold; 
+  }
+}
+.convert-3d-cube-bold {
+  &:before {
+    content: $convert-3d-cube-bold; 
+  }
+}
+.convert-bold {
+  &:before {
+    content: $convert-bold; 
+  }
+}
+.computing-bold {
+  &:before {
+    content: $computing-bold; 
+  }
+}
+.component-bold {
+  &:before {
+    content: $component-bold; 
+  }
+}
+.command-square-bold {
+  &:before {
+    content: $command-square-bold; 
+  }
+}
+.command-bold {
+  &:before {
+    content: $command-bold; 
+  }
+}
+.color-swatch-bold {
+  &:before {
+    content: $color-swatch-bold; 
+  }
+}
+.colors-square-bold {
+  &:before {
+    content: $colors-square-bold; 
+  }
+}
+.colorfilter-bold {
+  &:before {
+    content: $colorfilter-bold; 
+  }
+}
+.coin-1-bold {
+  &:before {
+    content: $coin-1-bold; 
+  }
+}
+.coin-bold {
+  &:before {
+    content: $coin-bold; 
+  }
+}
+.coffee-bold {
+  &:before {
+    content: $coffee-bold; 
+  }
+}
+.code-circle-bold {
+  &:before {
+    content: $code-circle-bold; 
+  }
+}
+.code-1-bold {
+  &:before {
+    content: $code-1-bold; 
+  }
+}
+.code-bold {
+  &:before {
+    content: $code-bold; 
+  }
+}
+.cloud-sunny-bold {
+  &:before {
+    content: $cloud-sunny-bold; 
+  }
+}
+.cloud-snow-bold {
+  &:before {
+    content: $cloud-snow-bold; 
+  }
+}
+.cloud-remove-bold {
+  &:before {
+    content: $cloud-remove-bold; 
+  }
+}
+.cloud-plus-bold {
+  &:before {
+    content: $cloud-plus-bold; 
+  }
+}
+.cloud-notif-bold {
+  &:before {
+    content: $cloud-notif-bold; 
+  }
+}
+.cloud-minus-bold {
+  &:before {
+    content: $cloud-minus-bold; 
+  }
+}
+.cloud-lightning-bold {
+  &:before {
+    content: $cloud-lightning-bold; 
+  }
+}
+.cloud-fog-bold {
+  &:before {
+    content: $cloud-fog-bold; 
+  }
+}
+.cloud-drizzle-bold {
+  &:before {
+    content: $cloud-drizzle-bold; 
+  }
+}
+.cloud-cross-bold {
+  &:before {
+    content: $cloud-cross-bold; 
+  }
+}
+.cloud-connection-bold {
+  &:before {
+    content: $cloud-connection-bold; 
+  }
+}
+.cloud-change-bold {
+  &:before {
+    content: $cloud-change-bold; 
+  }
+}
+.cloud-add-bold {
+  &:before {
+    content: $cloud-add-bold; 
+  }
+}
+.cloud-bold {
+  &:before {
+    content: $cloud-bold; 
+  }
+}
+.close-square-bold {
+  &:before {
+    content: $close-square-bold; 
+  }
+}
+.close-circle-bold {
+  &:before {
+    content: $close-circle-bold; 
+  }
+}
+.clock-1-bold {
+  &:before {
+    content: $clock-1-bold; 
+  }
+}
+.clock-bold {
+  &:before {
+    content: $clock-bold; 
+  }
+}
+.clipboard-tick-bold {
+  &:before {
+    content: $clipboard-tick-bold; 
+  }
+}
+.clipboard-text-bold {
+  &:before {
+    content: $clipboard-text-bold; 
+  }
+}
+.clipboard-import-bold {
+  &:before {
+    content: $clipboard-import-bold; 
+  }
+}
+.clipboard-export-bold {
+  &:before {
+    content: $clipboard-export-bold; 
+  }
+}
+.clipboard-close-bold {
+  &:before {
+    content: $clipboard-close-bold; 
+  }
+}
+.clipboard-bold {
+  &:before {
+    content: $clipboard-bold; 
+  }
+}
+.chrome-bold {
+  &:before {
+    content: $chrome-bold; 
+  }
+}
+.check-bold {
+  &:before {
+    content: $check-bold; 
+  }
+}
+.chart-success-bold {
+  &:before {
+    content: $chart-success-bold; 
+  }
+}
+.chart-square-bold {
+  &:before {
+    content: $chart-square-bold; 
+  }
+}
+.chart-fail-bold {
+  &:before {
+    content: $chart-fail-bold; 
+  }
+}
+.chart-21-bold {
+  &:before {
+    content: $chart-21-bold; 
+  }
+}
+.chart-3-bold {
+  &:before {
+    content: $chart-3-bold; 
+  }
+}
+.chart-2-bold {
+  &:before {
+    content: $chart-2-bold; 
+  }
+}
+.chart-1-bold {
+  &:before {
+    content: $chart-1-bold; 
+  }
+}
+.chart-bold {
+  &:before {
+    content: $chart-bold; 
+  }
+}
+.cd-bold {
+  &:before {
+    content: $cd-bold; 
+  }
+}
+.category-2-bold {
+  &:before {
+    content: $category-2-bold; 
+  }
+}
+.category-bold {
+  &:before {
+    content: $category-bold; 
+  }
+}
+.card-tick-1-bold {
+  &:before {
+    content: $card-tick-1-bold; 
+  }
+}
+.card-tick-bold {
+  &:before {
+    content: $card-tick-bold; 
+  }
+}
+.card-slash-bold {
+  &:before {
+    content: $card-slash-bold; 
+  }
+}
+.card-send-bold {
+  &:before {
+    content: $card-send-bold; 
+  }
+}
+.cards-bold {
+  &:before {
+    content: $cards-bold; 
+  }
+}
+.card-remove-1-bold {
+  &:before {
+    content: $card-remove-1-bold; 
+  }
+}
+.card-remove-bold {
+  &:before {
+    content: $card-remove-bold; 
+  }
+}
+.card-receive-bold {
+  &:before {
+    content: $card-receive-bold; 
+  }
+}
+.card-pos-bold {
+  &:before {
+    content: $card-pos-bold; 
+  }
+}
+.card-edit-bold {
+  &:before {
+    content: $card-edit-bold; 
+  }
+}
+.card-coin-bold {
+  &:before {
+    content: $card-coin-bold; 
+  }
+}
+.card-add-bold {
+  &:before {
+    content: $card-add-bold; 
+  }
+}
+.card-bold {
+  &:before {
+    content: $card-bold; 
+  }
+}
+.car-bold {
+  &:before {
+    content: $car-bold; 
+  }
+}
+.candle-2-bold {
+  &:before {
+    content: $candle-2-bold; 
+  }
+}
+.candle-bold {
+  &:before {
+    content: $candle-bold; 
+  }
+}
+.camera-slash-bold {
+  &:before {
+    content: $camera-slash-bold; 
+  }
+}
+.camera-bold {
+  &:before {
+    content: $camera-bold; 
+  }
+}
+.call-slash-bold {
+  &:before {
+    content: $call-slash-bold; 
+  }
+}
+.call-remove-bold {
+  &:before {
+    content: $call-remove-bold; 
+  }
+}
+.call-received-bold {
+  &:before {
+    content: $call-received-bold; 
+  }
+}
+.call-outgoing-bold {
+  &:before {
+    content: $call-outgoing-bold; 
+  }
+}
+.call-minus-bold {
+  &:before {
+    content: $call-minus-bold; 
+  }
+}
+.call-incoming-bold {
+  &:before {
+    content: $call-incoming-bold; 
+  }
+}
+.call-calling-bold {
+  &:before {
+    content: $call-calling-bold; 
+  }
+}
+.call-add-bold {
+  &:before {
+    content: $call-add-bold; 
+  }
+}
+.call-bold {
+  &:before {
+    content: $call-bold; 
+  }
+}
+.calendar-tick-bold {
+  &:before {
+    content: $calendar-tick-bold; 
+  }
+}
+.calendar-search-bold {
+  &:before {
+    content: $calendar-search-bold; 
+  }
+}
+.calendar-remove-bold {
+  &:before {
+    content: $calendar-remove-bold; 
+  }
+}
+.calendar-edit-bold {
+  &:before {
+    content: $calendar-edit-bold; 
+  }
+}
+.calendar-circle-bold {
+  &:before {
+    content: $calendar-circle-bold; 
+  }
+}
+.calendar-add-bold {
+  &:before {
+    content: $calendar-add-bold; 
+  }
+}
+.calendar-2-bold {
+  &:before {
+    content: $calendar-2-bold; 
+  }
+}
+.calendar-1-bold {
+  &:before {
+    content: $calendar-1-bold; 
+  }
+}
+.calendar-bold {
+  &:before {
+    content: $calendar-bold; 
+  }
+}
+.calculator-bold {
+  &:before {
+    content: $calculator-bold; 
+  }
+}
+.cake-bold {
+  &:before {
+    content: $cake-bold; 
+  }
+}
+.buy-crypto-bold {
+  &:before {
+    content: $buy-crypto-bold; 
+  }
+}
+.bus-bold {
+  &:before {
+    content: $bus-bold; 
+  }
+}
+.buliding-bold {
+  &:before {
+    content: $buliding-bold; 
+  }
+}
+.buildings-2-bold {
+  &:before {
+    content: $buildings-2-bold; 
+  }
+}
+.buildings-bold {
+  &:before {
+    content: $buildings-bold; 
+  }
+}
+.building-4-bold {
+  &:before {
+    content: $building-4-bold; 
+  }
+}
+.building-3-bold {
+  &:before {
+    content: $building-3-bold; 
+  }
+}
+.building-bold {
+  &:before {
+    content: $building-bold; 
+  }
+}
+.bucket-square-bold {
+  &:before {
+    content: $bucket-square-bold; 
+  }
+}
+.bucket-circle-bold {
+  &:before {
+    content: $bucket-circle-bold; 
+  }
+}
+.bucket-bold {
+  &:before {
+    content: $bucket-bold; 
+  }
+}
+.bubble-bold {
+  &:before {
+    content: $bubble-bold; 
+  }
+}
+.brush-4-bold {
+  &:before {
+    content: $brush-4-bold; 
+  }
+}
+.brush-3-bold {
+  &:before {
+    content: $brush-3-bold; 
+  }
+}
+.brush-2-bold {
+  &:before {
+    content: $brush-2-bold; 
+  }
+}
+.brush-1-bold {
+  &:before {
+    content: $brush-1-bold; 
+  }
+}
+.brush-bold {
+  &:before {
+    content: $brush-bold; 
+  }
+}
+.broom-bold {
+  &:before {
+    content: $broom-bold; 
+  }
+}
+.brifecase-timer-bold {
+  &:before {
+    content: $brifecase-timer-bold; 
+  }
+}
+.brifecase-tick-bold {
+  &:before {
+    content: $brifecase-tick-bold; 
+  }
+}
+.brifecase-cross-bold {
+  &:before {
+    content: $brifecase-cross-bold; 
+  }
+}
+.briefcase-bold {
+  &:before {
+    content: $briefcase-bold; 
+  }
+}
+.box-time-bold {
+  &:before {
+    content: $box-time-bold; 
+  }
+}
+.box-tick-bold {
+  &:before {
+    content: $box-tick-bold; 
+  }
+}
+.box-search-bold {
+  &:before {
+    content: $box-search-bold; 
+  }
+}
+.box-remove-bold {
+  &:before {
+    content: $box-remove-bold; 
+  }
+}
+.box-add-bold {
+  &:before {
+    content: $box-add-bold; 
+  }
+}
+.box-2-bold {
+  &:before {
+    content: $box-2-bold; 
+  }
+}
+.box-1-bold {
+  &:before {
+    content: $box-1-bold; 
+  }
+}
+.box-bold {
+  &:before {
+    content: $box-bold; 
+  }
+}
+.book-square-bold {
+  &:before {
+    content: $book-square-bold; 
+  }
+}
+.book-saved-bold {
+  &:before {
+    content: $book-saved-bold; 
+  }
+}
+.bookmark-2-bold {
+  &:before {
+    content: $bookmark-2-bold; 
+  }
+}
+.bookmark-bold {
+  &:before {
+    content: $bookmark-bold; 
+  }
+}
+.book-1-bold {
+  &:before {
+    content: $book-1-bold; 
+  }
+}
+.book-bold {
+  &:before {
+    content: $book-bold; 
+  }
+}
+.blur-bold {
+  &:before {
+    content: $blur-bold; 
+  }
+}
+.bluetooth-rectangle-bold {
+  &:before {
+    content: $bluetooth-rectangle-bold; 
+  }
+}
+.bluetooth-circle-bold {
+  &:before {
+    content: $bluetooth-circle-bold; 
+  }
+}
+.bluetooth-2-bold {
+  &:before {
+    content: $bluetooth-2-bold; 
+  }
+}
+.bluetooth-bold {
+  &:before {
+    content: $bluetooth-bold; 
+  }
+}
+.blend-2-bold {
+  &:before {
+    content: $blend-2-bold; 
+  }
+}
+.blend-bold {
+  &:before {
+    content: $blend-bold; 
+  }
+}
+.bitcoin-refresh-bold {
+  &:before {
+    content: $bitcoin-refresh-bold; 
+  }
+}
+.bitcoin-convert-bold {
+  &:before {
+    content: $bitcoin-convert-bold; 
+  }
+}
+.bitcoin-card-bold {
+  &:before {
+    content: $bitcoin-card-bold; 
+  }
+}
+.bill-bold {
+  &:before {
+    content: $bill-bold; 
+  }
+}
+.bezier-bold {
+  &:before {
+    content: $bezier-bold; 
+  }
+}
+.battery-full-bold {
+  &:before {
+    content: $battery-full-bold; 
+  }
+}
+.battery-empty-1-bold {
+  &:before {
+    content: $battery-empty-1-bold; 
+  }
+}
+.battery-empty-bold {
+  &:before {
+    content: $battery-empty-bold; 
+  }
+}
+.battery-disable-bold {
+  &:before {
+    content: $battery-disable-bold; 
+  }
+}
+.battery-charging-bold {
+  &:before {
+    content: $battery-charging-bold; 
+  }
+}
+.battery-3full-bold {
+  &:before {
+    content: $battery-3full-bold; 
+  }
+}
+.barcode-bold {
+  &:before {
+    content: $barcode-bold; 
+  }
+}
+.bank-bold {
+  &:before {
+    content: $bank-bold; 
+  }
+}
+.bag-timer-bold {
+  &:before {
+    content: $bag-timer-bold; 
+  }
+}
+.bag-tick-2-bold {
+  &:before {
+    content: $bag-tick-2-bold; 
+  }
+}
+.bag-tick-bold {
+  &:before {
+    content: $bag-tick-bold; 
+  }
+}
+.bag-happy-bold {
+  &:before {
+    content: $bag-happy-bold; 
+  }
+}
+.bag-cross-1-bold {
+  &:before {
+    content: $bag-cross-1-bold; 
+  }
+}
+.bag-cross-bold {
+  &:before {
+    content: $bag-cross-bold; 
+  }
+}
+.bag-2-bold {
+  &:before {
+    content: $bag-2-bold; 
+  }
+}
+.bag-bold {
+  &:before {
+    content: $bag-bold; 
+  }
+}
+.backward-item-bold {
+  &:before {
+    content: $backward-item-bold; 
+  }
+}
+.backward-15-seconds-bold {
+  &:before {
+    content: $backward-15-seconds-bold; 
+  }
+}
+.backward-10-seconds-bold {
+  &:before {
+    content: $backward-10-seconds-bold; 
+  }
+}
+.backward-5-seconds-bold {
+  &:before {
+    content: $backward-5-seconds-bold; 
+  }
+}
+.backward-bold {
+  &:before {
+    content: $backward-bold; 
+  }
+}
+.back-square-bold {
+  &:before {
+    content: $back-square-bold; 
+  }
+}
+.award-bold {
+  &:before {
+    content: $award-bold; 
+  }
+}
+.autobrightness-bold {
+  &:before {
+    content: $autobrightness-bold; 
+  }
+}
+.audio-square-bold {
+  &:before {
+    content: $audio-square-bold; 
+  }
+}
+.attach-square-bold {
+  &:before {
+    content: $attach-square-bold; 
+  }
+}
+.attach-circle-bold {
+  &:before {
+    content: $attach-circle-bold; 
+  }
+}
+.arrow-up-3-bold {
+  &:before {
+    content: $arrow-up-3-bold; 
+  }
+}
+.arrow-up-2-bold {
+  &:before {
+    content: $arrow-up-2-bold; 
+  }
+}
+.arrow-up-1-bold {
+  &:before {
+    content: $arrow-up-1-bold; 
+  }
+}
+.arrow-up-bold {
+  &:before {
+    content: $arrow-up-bold; 
+  }
+}
+.arrow-swap-horizontal-bold {
+  &:before {
+    content: $arrow-swap-horizontal-bold; 
+  }
+}
+.arrow-swap-bold {
+  &:before {
+    content: $arrow-swap-bold; 
+  }
+}
+.arrow-square-up-bold {
+  &:before {
+    content: $arrow-square-up-bold; 
+  }
+}
+.arrow-square-right-bold {
+  &:before {
+    content: $arrow-square-right-bold; 
+  }
+}
+.arrow-square-left-bold {
+  &:before {
+    content: $arrow-square-left-bold; 
+  }
+}
+.arrow-square-down-bold {
+  &:before {
+    content: $arrow-square-down-bold; 
+  }
+}
+.arrow-square-bold {
+  &:before {
+    content: $arrow-square-bold; 
+  }
+}
+.arrow-right-3-bold {
+  &:before {
+    content: $arrow-right-3-bold; 
+  }
+}
+.arrow-right-2-bold {
+  &:before {
+    content: $arrow-right-2-bold; 
+  }
+}
+.arrow-right-1-bold {
+  &:before {
+    content: $arrow-right-1-bold; 
+  }
+}
+.arrow-right-bold {
+  &:before {
+    content: $arrow-right-bold; 
+  }
+}
+.arrow-left-3-bold {
+  &:before {
+    content: $arrow-left-3-bold; 
+  }
+}
+.arrow-left-2-bold {
+  &:before {
+    content: $arrow-left-2-bold; 
+  }
+}
+.arrow-left-1-bold {
+  &:before {
+    content: $arrow-left-1-bold; 
+  }
+}
+.arrow-left-bold {
+  &:before {
+    content: $arrow-left-bold; 
+  }
+}
+.arrow-down-2-bold {
+  &:before {
+    content: $arrow-down-2-bold; 
+  }
+}
+.arrow-down-1-bold {
+  &:before {
+    content: $arrow-down-1-bold; 
+  }
+}
+.arrow-down-bold {
+  &:before {
+    content: $arrow-down-bold; 
+  }
+}
+.arrow-circle-up-bold {
+  &:before {
+    content: $arrow-circle-up-bold; 
+  }
+}
+.arrow-circle-right-bold {
+  &:before {
+    content: $arrow-circle-right-bold; 
+  }
+}
+.arrow-circle-left-bold {
+  &:before {
+    content: $arrow-circle-left-bold; 
+  }
+}
+.arrow-circle-down-bold {
+  &:before {
+    content: $arrow-circle-down-bold; 
+  }
+}
+.arrow-bottom-bold {
+  &:before {
+    content: $arrow-bottom-bold; 
+  }
+}
+.arrow-3-bold {
+  &:before {
+    content: $arrow-3-bold; 
+  }
+}
+.arrow-2-bold {
+  &:before {
+    content: $arrow-2-bold; 
+  }
+}
+.arrow-bold {
+  &:before {
+    content: $arrow-bold; 
+  }
+}
+.arrange-square-2-bold {
+  &:before {
+    content: $arrange-square-2-bold; 
+  }
+}
+.arrange-square-bold {
+  &:before {
+    content: $arrange-square-bold; 
+  }
+}
+.arrange-circle-2-bold {
+  &:before {
+    content: $arrange-circle-2-bold; 
+  }
+}
+.arrange-circle-bold {
+  &:before {
+    content: $arrange-circle-bold; 
+  }
+}
+.archive-tick-bold {
+  &:before {
+    content: $archive-tick-bold; 
+  }
+}
+.archive-slash-bold {
+  &:before {
+    content: $archive-slash-bold; 
+  }
+}
+.archive-minus-bold {
+  &:before {
+    content: $archive-minus-bold; 
+  }
+}
+.archive-book-bold {
+  &:before {
+    content: $archive-book-bold; 
+  }
+}
+.archive-add-bold {
+  &:before {
+    content: $archive-add-bold; 
+  }
+}
+.archive-2-bold {
+  &:before {
+    content: $archive-2-bold; 
+  }
+}
+.archive-1-bold {
+  &:before {
+    content: $archive-1-bold; 
+  }
+}
+.archive-bold {
+  &:before {
+    content: $archive-bold; 
+  }
+}
+.aquarius-bold {
+  &:before {
+    content: $aquarius-bold; 
+  }
+}
+.align-vertically-bold {
+  &:before {
+    content: $align-vertically-bold; 
+  }
+}
+.align-right-bold {
+  &:before {
+    content: $align-right-bold; 
+  }
+}
+.align-left-bold {
+  &:before {
+    content: $align-left-bold; 
+  }
+}
+.align-horizontally-bold {
+  &:before {
+    content: $align-horizontally-bold; 
+  }
+}
+.align-bottom-bold {
+  &:before {
+    content: $align-bottom-bold; 
+  }
+}
+.alarm-bold {
+  &:before {
+    content: $alarm-bold; 
+  }
+}
+.airpods-bold {
+  &:before {
+    content: $airpods-bold; 
+  }
+}
+.airpod-bold {
+  &:before {
+    content: $airpod-bold; 
+  }
+}
+.airplane-square-bold {
+  &:before {
+    content: $airplane-square-bold; 
+  }
+}
+.airplane-bold {
+  &:before {
+    content: $airplane-bold; 
+  }
+}
+.airdrop-bold {
+  &:before {
+    content: $airdrop-bold; 
+  }
+}
+.add-square-bold {
+  &:before {
+    content: $add-square-bold; 
+  }
+}
+.additem-bold {
+  &:before {
+    content: $additem-bold; 
+  }
+}
+.add-circle-bold {
+  &:before {
+    content: $add-circle-bold; 
+  }
+}
+.add-bold {
+  &:before {
+    content: $add-bold; 
+  }
+}
+.activity-bold {
+  &:before {
+    content: $activity-bold; 
+  }
+}
+.support-bold {
+  &:before {
+    content: $support-bold; 
+  }
+}
+.square-bold {
+  &:before {
+    content: $square-bold; 
+  }
+}
+.d-square-bold {
+  &:before {
+    content: $d-square-bold; 
+  }
+}
+.d-rotate-bold {
+  &:before {
+    content: $d-rotate-bold; 
+  }
+}
+.d-cube-scan-bold {
+  &:before {
+    content: $d-cube-scan-bold; 
+  }
+}
+.dcube-bold {
+  &:before {
+    content: $dcube-bold; 
+  }
+}
+
