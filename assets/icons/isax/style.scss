@@ -1,0 +1,4626 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9ula7y');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?9ula7y#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?9ula7y') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?9ula7y') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?9ula7y##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.isax {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 14px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.isax-woman {
+  &:before {
+    content: $isax-woman; 
+  }
+}
+.isax-wind-2 {
+  &:before {
+    content: $isax-wind-2; 
+  }
+}
+.isax-wind {
+  &:before {
+    content: $isax-wind; 
+  }
+}
+.isax-wifi-square {
+  &:before {
+    content: $isax-wifi-square; 
+  }
+}
+.isax-wifi {
+  &:before {
+    content: $isax-wifi; 
+  }
+}
+.isax-weight-1 {
+  &:before {
+    content: $isax-weight-1; 
+  }
+}
+.isax-weight {
+  &:before {
+    content: $isax-weight; 
+  }
+}
+.isax-watch-status {
+  &:before {
+    content: $isax-watch-status; 
+  }
+}
+.isax-watch {
+  &:before {
+    content: $isax-watch; 
+  }
+}
+.isax-warning-2 {
+  &:before {
+    content: $isax-warning-2; 
+  }
+}
+.isax-wallet-search {
+  &:before {
+    content: $isax-wallet-search; 
+  }
+}
+.isax-wallet-remove {
+  &:before {
+    content: $isax-wallet-remove; 
+  }
+}
+.isax-wallet-money {
+  &:before {
+    content: $isax-wallet-money; 
+  }
+}
+.isax-wallet-minus {
+  &:before {
+    content: $isax-wallet-minus; 
+  }
+}
+.isax-wallet-check {
+  &:before {
+    content: $isax-wallet-check; 
+  }
+}
+.isax-wallet-add-1 {
+  &:before {
+    content: $isax-wallet-add-1; 
+  }
+}
+.isax-wallet-add {
+  &:before {
+    content: $isax-wallet-add; 
+  }
+}
+.isax-wallet-3 {
+  &:before {
+    content: $isax-wallet-3; 
+  }
+}
+.isax-wallet-2 {
+  &:before {
+    content: $isax-wallet-2; 
+  }
+}
+.isax-wallet-1 {
+  &:before {
+    content: $isax-wallet-1; 
+  }
+}
+.isax-wallet {
+  &:before {
+    content: $isax-wallet; 
+  }
+}
+.isax-volume-up {
+  &:before {
+    content: $isax-volume-up; 
+  }
+}
+.isax-volume-slash {
+  &:before {
+    content: $isax-volume-slash; 
+  }
+}
+.isax-volume-mute {
+  &:before {
+    content: $isax-volume-mute; 
+  }
+}
+.isax-volume-low-1 {
+  &:before {
+    content: $isax-volume-low-1; 
+  }
+}
+.isax-volume-low {
+  &:before {
+    content: $isax-volume-low; 
+  }
+}
+.isax-volume-high {
+  &:before {
+    content: $isax-volume-high; 
+  }
+}
+.isax-volume-cross {
+  &:before {
+    content: $isax-volume-cross; 
+  }
+}
+.isax-voice-square {
+  &:before {
+    content: $isax-voice-square; 
+  }
+}
+.isax-voice-cricle {
+  &:before {
+    content: $isax-voice-cricle; 
+  }
+}
+.isax-video-vertical {
+  &:before {
+    content: $isax-video-vertical; 
+  }
+}
+.isax-video-time {
+  &:before {
+    content: $isax-video-time; 
+  }
+}
+.isax-video-tick {
+  &:before {
+    content: $isax-video-tick; 
+  }
+}
+.isax-video-square {
+  &:before {
+    content: $isax-video-square; 
+  }
+}
+.isax-video-slash {
+  &:before {
+    content: $isax-video-slash; 
+  }
+}
+.isax-video-remove {
+  &:before {
+    content: $isax-video-remove; 
+  }
+}
+.isax-video-play {
+  &:before {
+    content: $isax-video-play; 
+  }
+}
+.isax-video-octagon {
+  &:before {
+    content: $isax-video-octagon; 
+  }
+}
+.isax-video-horizontal {
+  &:before {
+    content: $isax-video-horizontal; 
+  }
+}
+.isax-video-circle {
+  &:before {
+    content: $isax-video-circle; 
+  }
+}
+.isax-video-add {
+  &:before {
+    content: $isax-video-add; 
+  }
+}
+.isax-video {
+  &:before {
+    content: $isax-video; 
+  }
+}
+.isax-verify {
+  &:before {
+    content: $isax-verify; 
+  }
+}
+.isax-user-tick {
+  &:before {
+    content: $isax-user-tick; 
+  }
+}
+.isax-user-tag {
+  &:before {
+    content: $isax-user-tag; 
+  }
+}
+.isax-user-square {
+  &:before {
+    content: $isax-user-square; 
+  }
+}
+.isax-user-search {
+  &:before {
+    content: $isax-user-search; 
+  }
+}
+.isax-user-remove {
+  &:before {
+    content: $isax-user-remove; 
+  }
+}
+.isax-user-octagon {
+  &:before {
+    content: $isax-user-octagon; 
+  }
+}
+.isax-user-minus {
+  &:before {
+    content: $isax-user-minus; 
+  }
+}
+.isax-user-edit {
+  &:before {
+    content: $isax-user-edit; 
+  }
+}
+.isax-user-cirlce-add {
+  &:before {
+    content: $isax-user-cirlce-add; 
+  }
+}
+.isax-user-add {
+  &:before {
+    content: $isax-user-add; 
+  }
+}
+.isax-user {
+  &:before {
+    content: $isax-user; 
+  }
+}
+.isax-unlock {
+  &:before {
+    content: $isax-unlock; 
+  }
+}
+.isax-unlimited {
+  &:before {
+    content: $isax-unlimited; 
+  }
+}
+.isax-undo {
+  &:before {
+    content: $isax-undo; 
+  }
+}
+.isax-trush-square {
+  &:before {
+    content: $isax-trush-square; 
+  }
+}
+.isax-truck-time {
+  &:before {
+    content: $isax-truck-time; 
+  }
+}
+.isax-truck-tick {
+  &:before {
+    content: $isax-truck-tick; 
+  }
+}
+.isax-truck-remove {
+  &:before {
+    content: $isax-truck-remove; 
+  }
+}
+.isax-triangle {
+  &:before {
+    content: $isax-triangle; 
+  }
+}
+.isax-trend-up {
+  &:before {
+    content: $isax-trend-up; 
+  }
+}
+.isax-trend-down {
+  &:before {
+    content: $isax-trend-down; 
+  }
+}
+.isax-tree {
+  &:before {
+    content: $isax-tree; 
+  }
+}
+.isax-trash {
+  &:before {
+    content: $isax-trash; 
+  }
+}
+.isax-translate {
+  &:before {
+    content: $isax-translate; 
+  }
+}
+.isax-transaction-minus {
+  &:before {
+    content: $isax-transaction-minus; 
+  }
+}
+.isax-trade {
+  &:before {
+    content: $isax-trade; 
+  }
+}
+.isax-toggle-on-circle {
+  &:before {
+    content: $isax-toggle-on-circle; 
+  }
+}
+.isax-toggle-on {
+  &:before {
+    content: $isax-toggle-on; 
+  }
+}
+.isax-toggle-off-circle {
+  &:before {
+    content: $isax-toggle-off-circle; 
+  }
+}
+.isax-toggle-off {
+  &:before {
+    content: $isax-toggle-off; 
+  }
+}
+.isax-timer-start {
+  &:before {
+    content: $isax-timer-start; 
+  }
+}
+.isax-timer-pause {
+  &:before {
+    content: $isax-timer-pause; 
+  }
+}
+.isax-timer-1 {
+  &:before {
+    content: $isax-timer-1; 
+  }
+}
+.isax-timer {
+  &:before {
+    content: $isax-timer; 
+  }
+}
+.isax-tick-square {
+  &:before {
+    content: $isax-tick-square; 
+  }
+}
+.isax-ticket-star {
+  &:before {
+    content: $isax-ticket-star; 
+  }
+}
+.isax-ticket-expired {
+  &:before {
+    content: $isax-ticket-expired; 
+  }
+}
+.isax-ticket-discount {
+  &:before {
+    content: $isax-ticket-discount; 
+  }
+}
+.isax-ticket-2 {
+  &:before {
+    content: $isax-ticket-2; 
+  }
+}
+.isax-ticket {
+  &:before {
+    content: $isax-ticket; 
+  }
+}
+.isax-tick-circle {
+  &:before {
+    content: $isax-tick-circle; 
+  }
+}
+.isax-text-underline {
+  &:before {
+    content: $isax-text-underline; 
+  }
+}
+.isax-text-italic {
+  &:before {
+    content: $isax-text-italic; 
+  }
+}
+.isax-text-bold {
+  &:before {
+    content: $isax-text-bold; 
+  }
+}
+.isax-text-block {
+  &:before {
+    content: $isax-text-block; 
+  }
+}
+.isax-textalign-right {
+  &:before {
+    content: $isax-textalign-right; 
+  }
+}
+.isax-textalign-left {
+  &:before {
+    content: $isax-textalign-left; 
+  }
+}
+.isax-textalign-justifyright {
+  &:before {
+    content: $isax-textalign-justifyright; 
+  }
+}
+.isax-textalign-justifyleft {
+  &:before {
+    content: $isax-textalign-justifyleft; 
+  }
+}
+.isax-textalign-justifycenter {
+  &:before {
+    content: $isax-textalign-justifycenter; 
+  }
+}
+.isax-textalign-center {
+  &:before {
+    content: $isax-textalign-center; 
+  }
+}
+.isax-text {
+  &:before {
+    content: $isax-text; 
+  }
+}
+.isax-teacher {
+  &:before {
+    content: $isax-teacher; 
+  }
+}
+.isax-task-square {
+  &:before {
+    content: $isax-task-square; 
+  }
+}
+.isax-task {
+  &:before {
+    content: $isax-task; 
+  }
+}
+.isax-tag-user {
+  &:before {
+    content: $isax-tag-user; 
+  }
+}
+.isax-tag-right {
+  &:before {
+    content: $isax-tag-right; 
+  }
+}
+.isax-tag-cross {
+  &:before {
+    content: $isax-tag-cross; 
+  }
+}
+.isax-tag-2 {
+  &:before {
+    content: $isax-tag-2; 
+  }
+}
+.isax-tag {
+  &:before {
+    content: $isax-tag; 
+  }
+}
+.isax-sun-fog {
+  &:before {
+    content: $isax-sun-fog; 
+  }
+}
+.isax-sun-1 {
+  &:before {
+    content: $isax-sun-1; 
+  }
+}
+.isax-sun {
+  &:before {
+    content: $isax-sun; 
+  }
+}
+.isax-subtitle {
+  &:before {
+    content: $isax-subtitle; 
+  }
+}
+.isax-strongbox-2 {
+  &:before {
+    content: $isax-strongbox-2; 
+  }
+}
+.isax-strongbox {
+  &:before {
+    content: $isax-strongbox; 
+  }
+}
+.isax-story {
+  &:before {
+    content: $isax-story; 
+  }
+}
+.isax-stop-circle {
+  &:before {
+    content: $isax-stop-circle; 
+  }
+}
+.isax-stop {
+  &:before {
+    content: $isax-stop; 
+  }
+}
+.isax-stickynote {
+  &:before {
+    content: $isax-stickynote; 
+  }
+}
+.isax-sticker {
+  &:before {
+    content: $isax-sticker; 
+  }
+}
+.isax-status-up {
+  &:before {
+    content: $isax-status-up; 
+  }
+}
+.isax-status {
+  &:before {
+    content: $isax-status; 
+  }
+}
+.isax-star-slash {
+  &:before {
+    content: $isax-star-slash; 
+  }
+}
+.isax-star-1 {
+  &:before {
+    content: $isax-star-1; 
+  }
+}
+.isax-star {
+  &:before {
+    content: $isax-star; 
+  }
+}
+.isax-speedometer {
+  &:before {
+    content: $isax-speedometer; 
+  }
+}
+.isax-speaker {
+  &:before {
+    content: $isax-speaker; 
+  }
+}
+.isax-sound {
+  &:before {
+    content: $isax-sound; 
+  }
+}
+.isax-sort {
+  &:before {
+    content: $isax-sort; 
+  }
+}
+.isax-sms-tracking {
+  &:before {
+    content: $isax-sms-tracking; 
+  }
+}
+.isax-sms-star {
+  &:before {
+    content: $isax-sms-star; 
+  }
+}
+.isax-sms-search {
+  &:before {
+    content: $isax-sms-search; 
+  }
+}
+.isax-sms-notification {
+  &:before {
+    content: $isax-sms-notification; 
+  }
+}
+.isax-sms-edit {
+  &:before {
+    content: $isax-sms-edit; 
+  }
+}
+.isax-sms {
+  &:before {
+    content: $isax-sms; 
+  }
+}
+.isax-smileys {
+  &:before {
+    content: $isax-smileys; 
+  }
+}
+.isax-smart-home {
+  &:before {
+    content: $isax-smart-home; 
+  }
+}
+.isax-smart-car {
+  &:before {
+    content: $isax-smart-car; 
+  }
+}
+.isax-smallcaps {
+  &:before {
+    content: $isax-smallcaps; 
+  }
+}
+.isax-slider-vertical-1 {
+  &:before {
+    content: $isax-slider-vertical-1; 
+  }
+}
+.isax-slider-vertical {
+  &:before {
+    content: $isax-slider-vertical; 
+  }
+}
+.isax-slider-horizontal-1 {
+  &:before {
+    content: $isax-slider-horizontal-1; 
+  }
+}
+.isax-slider-horizontal {
+  &:before {
+    content: $isax-slider-horizontal; 
+  }
+}
+.isax-slider {
+  &:before {
+    content: $isax-slider; 
+  }
+}
+.isax-slash {
+  &:before {
+    content: $isax-slash; 
+  }
+}
+.isax-size {
+  &:before {
+    content: $isax-size; 
+  }
+}
+.isax-simcard-2 {
+  &:before {
+    content: $isax-simcard-2; 
+  }
+}
+.isax-simcard-1 {
+  &:before {
+    content: $isax-simcard-1; 
+  }
+}
+.isax-simcard {
+  &:before {
+    content: $isax-simcard; 
+  }
+}
+.isax-signpost {
+  &:before {
+    content: $isax-signpost; 
+  }
+}
+.isax-sidebar-top {
+  &:before {
+    content: $isax-sidebar-top; 
+  }
+}
+.isax-sidebar-right {
+  &:before {
+    content: $isax-sidebar-right; 
+  }
+}
+.isax-sidebar-left {
+  &:before {
+    content: $isax-sidebar-left; 
+  }
+}
+.isax-sidebar-bottom {
+  &:before {
+    content: $isax-sidebar-bottom; 
+  }
+}
+.isax-shop-remove {
+  &:before {
+    content: $isax-shop-remove; 
+  }
+}
+.isax-shopping-cart {
+  &:before {
+    content: $isax-shopping-cart; 
+  }
+}
+.isax-shopping-bag {
+  &:before {
+    content: $isax-shopping-bag; 
+  }
+}
+.isax-shop-add {
+  &:before {
+    content: $isax-shop-add; 
+  }
+}
+.isax-shop {
+  &:before {
+    content: $isax-shop; 
+  }
+}
+.isax-ship {
+  &:before {
+    content: $isax-ship; 
+  }
+}
+.isax-shield-tick {
+  &:before {
+    content: $isax-shield-tick; 
+  }
+}
+.isax-shield-slash {
+  &:before {
+    content: $isax-shield-slash; 
+  }
+}
+.isax-shield-security {
+  &:before {
+    content: $isax-shield-security; 
+  }
+}
+.isax-shield-search {
+  &:before {
+    content: $isax-shield-search; 
+  }
+}
+.isax-shield-cross {
+  &:before {
+    content: $isax-shield-cross; 
+  }
+}
+.isax-shield {
+  &:before {
+    content: $isax-shield; 
+  }
+}
+.isax-share {
+  &:before {
+    content: $isax-share; 
+  }
+}
+.isax-shapes-2 {
+  &:before {
+    content: $isax-shapes-2; 
+  }
+}
+.isax-shapes-1 {
+  &:before {
+    content: $isax-shapes-1; 
+  }
+}
+.isax-shapes {
+  &:before {
+    content: $isax-shapes; 
+  }
+}
+.isax-settings {
+  &:before {
+    content: $isax-settings; 
+  }
+}
+.isax-setting-5 {
+  &:before {
+    content: $isax-setting-5; 
+  }
+}
+.isax-setting-4 {
+  &:before {
+    content: $isax-setting-4; 
+  }
+}
+.isax-setting-3 {
+  &:before {
+    content: $isax-setting-3; 
+  }
+}
+.isax-setting-2 {
+  &:before {
+    content: $isax-setting-2; 
+  }
+}
+.isax-setting {
+  &:before {
+    content: $isax-setting; 
+  }
+}
+.isax-send-square {
+  &:before {
+    content: $isax-send-square; 
+  }
+}
+.isax-send-sqaure-2 {
+  &:before {
+    content: $isax-send-sqaure-2; 
+  }
+}
+.isax-send-2 {
+  &:before {
+    content: $isax-send-2; 
+  }
+}
+.isax-send-1 {
+  &:before {
+    content: $isax-send-1; 
+  }
+}
+.isax-send {
+  &:before {
+    content: $isax-send; 
+  }
+}
+.isax-security-user {
+  &:before {
+    content: $isax-security-user; 
+  }
+}
+.isax-security-time {
+  &:before {
+    content: $isax-security-time; 
+  }
+}
+.isax-security-safe {
+  &:before {
+    content: $isax-security-safe; 
+  }
+}
+.isax-security-card {
+  &:before {
+    content: $isax-security-card; 
+  }
+}
+.isax-security {
+  &:before {
+    content: $isax-security; 
+  }
+}
+.isax-search-zoom-out-1 {
+  &:before {
+    content: $isax-search-zoom-out-1; 
+  }
+}
+.isax-search-zoom-out {
+  &:before {
+    content: $isax-search-zoom-out; 
+  }
+}
+.isax-search-zoom-in-1 {
+  &:before {
+    content: $isax-search-zoom-in-1; 
+  }
+}
+.isax-search-zoom-in {
+  &:before {
+    content: $isax-search-zoom-in; 
+  }
+}
+.isax-search-status-1 {
+  &:before {
+    content: $isax-search-status-1; 
+  }
+}
+.isax-search-status {
+  &:before {
+    content: $isax-search-status; 
+  }
+}
+.isax-search-normal-1 {
+  &:before {
+    content: $isax-search-normal-1; 
+  }
+}
+.isax-search-normal {
+  &:before {
+    content: $isax-search-normal; 
+  }
+}
+.isax-search-favorite-1 {
+  &:before {
+    content: $isax-search-favorite-1; 
+  }
+}
+.isax-search-favorite {
+  &:before {
+    content: $isax-search-favorite; 
+  }
+}
+.isax-scroll {
+  &:before {
+    content: $isax-scroll; 
+  }
+}
+.isax-screenmirroring {
+  &:before {
+    content: $isax-screenmirroring; 
+  }
+}
+.isax-scissor-2 {
+  &:before {
+    content: $isax-scissor-2; 
+  }
+}
+.isax-scissor-1 {
+  &:before {
+    content: $isax-scissor-1; 
+  }
+}
+.isax-scissor {
+  &:before {
+    content: $isax-scissor; 
+  }
+}
+.isax-scanning {
+  &:before {
+    content: $isax-scanning; 
+  }
+}
+.isax-scanner {
+  &:before {
+    content: $isax-scanner; 
+  }
+}
+.isax-scan-barcode {
+  &:before {
+    content: $isax-scan-barcode; 
+  }
+}
+.isax-scan {
+  &:before {
+    content: $isax-scan; 
+  }
+}
+.isax-save-remove {
+  &:before {
+    content: $isax-save-remove; 
+  }
+}
+.isax-save-minus {
+  &:before {
+    content: $isax-save-minus; 
+  }
+}
+.isax-save-add {
+  &:before {
+    content: $isax-save-add; 
+  }
+}
+.isax-save-2 {
+  &:before {
+    content: $isax-save-2; 
+  }
+}
+.isax-sagittarius {
+  &:before {
+    content: $isax-sagittarius; 
+  }
+}
+.isax-safe-home {
+  &:before {
+    content: $isax-safe-home; 
+  }
+}
+.isax-rulerpen {
+  &:before {
+    content: $isax-rulerpen; 
+  }
+}
+.isax-ruler {
+  &:before {
+    content: $isax-ruler; 
+  }
+}
+.isax-row-vertical {
+  &:before {
+    content: $isax-row-vertical; 
+  }
+}
+.isax-row-horizontal {
+  &:before {
+    content: $isax-row-horizontal; 
+  }
+}
+.isax-routing-2 {
+  &:before {
+    content: $isax-routing-2; 
+  }
+}
+.isax-routing {
+  &:before {
+    content: $isax-routing; 
+  }
+}
+.isax-route-square {
+  &:before {
+    content: $isax-route-square; 
+  }
+}
+.isax-rotate-right-1 {
+  &:before {
+    content: $isax-rotate-right-1; 
+  }
+}
+.isax-rotate-right {
+  &:before {
+    content: $isax-rotate-right; 
+  }
+}
+.isax-rotate-left-1 {
+  &:before {
+    content: $isax-rotate-left-1; 
+  }
+}
+.isax-rotate-left {
+  &:before {
+    content: $isax-rotate-left; 
+  }
+}
+.isax-reserve {
+  &:before {
+    content: $isax-reserve; 
+  }
+}
+.isax-repeate-one {
+  &:before {
+    content: $isax-repeate-one; 
+  }
+}
+.isax-repeate-music {
+  &:before {
+    content: $isax-repeate-music; 
+  }
+}
+.isax-repeat-circle {
+  &:before {
+    content: $isax-repeat-circle; 
+  }
+}
+.isax-repeat {
+  &:before {
+    content: $isax-repeat; 
+  }
+}
+.isax-refresh-square-2 {
+  &:before {
+    content: $isax-refresh-square-2; 
+  }
+}
+.isax-refresh-right-square {
+  &:before {
+    content: $isax-refresh-right-square; 
+  }
+}
+.isax-refresh-left-square {
+  &:before {
+    content: $isax-refresh-left-square; 
+  }
+}
+.isax-refresh-circle {
+  &:before {
+    content: $isax-refresh-circle; 
+  }
+}
+.isax-refresh-2 {
+  &:before {
+    content: $isax-refresh-2; 
+  }
+}
+.isax-refresh {
+  &:before {
+    content: $isax-refresh; 
+  }
+}
+.isax-redo {
+  &:before {
+    content: $isax-redo; 
+  }
+}
+.isax-recovery-convert {
+  &:before {
+    content: $isax-recovery-convert; 
+  }
+}
+.isax-record-circle {
+  &:before {
+    content: $isax-record-circle; 
+  }
+}
+.isax-record {
+  &:before {
+    content: $isax-record; 
+  }
+}
+.isax-receive-square-2 {
+  &:before {
+    content: $isax-receive-square-2; 
+  }
+}
+.isax-receive-square {
+  &:before {
+    content: $isax-receive-square; 
+  }
+}
+.isax-received {
+  &:before {
+    content: $isax-received; 
+  }
+}
+.isax-receipt-text {
+  &:before {
+    content: $isax-receipt-text; 
+  }
+}
+.isax-receipt-square {
+  &:before {
+    content: $isax-receipt-square; 
+  }
+}
+.isax-receipt-search {
+  &:before {
+    content: $isax-receipt-search; 
+  }
+}
+.isax-receipt-minus {
+  &:before {
+    content: $isax-receipt-minus; 
+  }
+}
+.isax-receipt-item {
+  &:before {
+    content: $isax-receipt-item; 
+  }
+}
+.isax-receipt-edit {
+  &:before {
+    content: $isax-receipt-edit; 
+  }
+}
+.isax-receipt-disscount {
+  &:before {
+    content: $isax-receipt-disscount; 
+  }
+}
+.isax-receipt-discount {
+  &:before {
+    content: $isax-receipt-discount; 
+  }
+}
+.isax-receipt-add {
+  &:before {
+    content: $isax-receipt-add; 
+  }
+}
+.isax-receipt-2-1 {
+  &:before {
+    content: $isax-receipt-2-1; 
+  }
+}
+.isax-receipt-2 {
+  &:before {
+    content: $isax-receipt-2; 
+  }
+}
+.isax-receipt-1 {
+  &:before {
+    content: $isax-receipt-1; 
+  }
+}
+.isax-receipt {
+  &:before {
+    content: $isax-receipt; 
+  }
+}
+.isax-ranking-1 {
+  &:before {
+    content: $isax-ranking-1; 
+  }
+}
+.isax-ranking {
+  &:before {
+    content: $isax-ranking; 
+  }
+}
+.isax-ram-2 {
+  &:before {
+    content: $isax-ram-2; 
+  }
+}
+.isax-ram {
+  &:before {
+    content: $isax-ram; 
+  }
+}
+.isax-radio {
+  &:before {
+    content: $isax-radio; 
+  }
+}
+.isax-radar-2 {
+  &:before {
+    content: $isax-radar-2; 
+  }
+}
+.isax-radar-1 {
+  &:before {
+    content: $isax-radar-1; 
+  }
+}
+.isax-radar {
+  &:before {
+    content: $isax-radar; 
+  }
+}
+.isax-quote-up-square {
+  &:before {
+    content: $isax-quote-up-square; 
+  }
+}
+.isax-quote-up-circle {
+  &:before {
+    content: $isax-quote-up-circle; 
+  }
+}
+.isax-quote-up {
+  &:before {
+    content: $isax-quote-up; 
+  }
+}
+.isax-quote-down-square {
+  &:before {
+    content: $isax-quote-down-square; 
+  }
+}
+.isax-quote-down-circle {
+  &:before {
+    content: $isax-quote-down-circle; 
+  }
+}
+.isax-quote-down {
+  &:before {
+    content: $isax-quote-down; 
+  }
+}
+.isax-programming-arrows {
+  &:before {
+    content: $isax-programming-arrows; 
+  }
+}
+.isax-programming-arrow {
+  &:before {
+    content: $isax-programming-arrow; 
+  }
+}
+.isax-profile-tick {
+  &:before {
+    content: $isax-profile-tick; 
+  }
+}
+.isax-profile-remove {
+  &:before {
+    content: $isax-profile-remove; 
+  }
+}
+.isax-profile-delete {
+  &:before {
+    content: $isax-profile-delete; 
+  }
+}
+.isax-profile-circle {
+  &:before {
+    content: $isax-profile-circle; 
+  }
+}
+.isax-profile-add {
+  &:before {
+    content: $isax-profile-add; 
+  }
+}
+.isax-profile-2user {
+  &:before {
+    content: $isax-profile-2user; 
+  }
+}
+.isax-profile {
+  &:before {
+    content: $isax-profile; 
+  }
+}
+.isax-printer-slash {
+  &:before {
+    content: $isax-printer-slash; 
+  }
+}
+.isax-printer {
+  &:before {
+    content: $isax-printer; 
+  }
+}
+.isax-previous {
+  &:before {
+    content: $isax-previous; 
+  }
+}
+.isax-presention-chart {
+  &:before {
+    content: $isax-presention-chart; 
+  }
+}
+.isax-play-remove {
+  &:before {
+    content: $isax-play-remove; 
+  }
+}
+.isax-play-cricle {
+  &:before {
+    content: $isax-play-cricle; 
+  }
+}
+.isax-play-circle {
+  &:before {
+    content: $isax-play-circle; 
+  }
+}
+.isax-play-add {
+  &:before {
+    content: $isax-play-add; 
+  }
+}
+.isax-play {
+  &:before {
+    content: $isax-play; 
+  }
+}
+.isax-picture-frame {
+  &:before {
+    content: $isax-picture-frame; 
+  }
+}
+.isax-pharagraphspacing {
+  &:before {
+    content: $isax-pharagraphspacing; 
+  }
+}
+.isax-pet {
+  &:before {
+    content: $isax-pet; 
+  }
+}
+.isax-personalcard {
+  &:before {
+    content: $isax-personalcard; 
+  }
+}
+.isax-percentage-square {
+  &:before {
+    content: $isax-percentage-square; 
+  }
+}
+.isax-people {
+  &:before {
+    content: $isax-people; 
+  }
+}
+.isax-pen-tool-2-1 {
+  &:before {
+    content: $isax-pen-tool-2-1; 
+  }
+}
+.isax-pen-tool-2 {
+  &:before {
+    content: $isax-pen-tool-2; 
+  }
+}
+.isax-pen-tool-1 {
+  &:before {
+    content: $isax-pen-tool-1; 
+  }
+}
+.isax-pen-tool {
+  &:before {
+    content: $isax-pen-tool; 
+  }
+}
+.isax-pen-remove-1 {
+  &:before {
+    content: $isax-pen-remove-1; 
+  }
+}
+.isax-pen-remove {
+  &:before {
+    content: $isax-pen-remove; 
+  }
+}
+.isax-pen-close-1 {
+  &:before {
+    content: $isax-pen-close-1; 
+  }
+}
+.isax-pen-close {
+  &:before {
+    content: $isax-pen-close; 
+  }
+}
+.isax-pen-add-1 {
+  &:before {
+    content: $isax-pen-add-1; 
+  }
+}
+.isax-pen-add {
+  &:before {
+    content: $isax-pen-add; 
+  }
+}
+.isax-pause-circle {
+  &:before {
+    content: $isax-pause-circle; 
+  }
+}
+.isax-pause {
+  &:before {
+    content: $isax-pause; 
+  }
+}
+.isax-path-square {
+  &:before {
+    content: $isax-path-square; 
+  }
+}
+.isax-path-2 {
+  &:before {
+    content: $isax-path-2; 
+  }
+}
+.isax-path {
+  &:before {
+    content: $isax-path; 
+  }
+}
+.isax-password-check {
+  &:before {
+    content: $isax-password-check; 
+  }
+}
+.isax-paperclip-2 {
+  &:before {
+    content: $isax-paperclip-2; 
+  }
+}
+.isax-paperclip {
+  &:before {
+    content: $isax-paperclip; 
+  }
+}
+.isax-paintbucket {
+  &:before {
+    content: $isax-paintbucket; 
+  }
+}
+.isax-omega-square-1 {
+  &:before {
+    content: $isax-omega-square-1; 
+  }
+}
+.isax-omega-square {
+  &:before {
+    content: $isax-omega-square; 
+  }
+}
+.isax-omega-circle-1 {
+  &:before {
+    content: $isax-omega-circle-1; 
+  }
+}
+.isax-omega-circle {
+  &:before {
+    content: $isax-omega-circle; 
+  }
+}
+.isax-notification-status {
+  &:before {
+    content: $isax-notification-status; 
+  }
+}
+.isax-notification-favorite {
+  &:before {
+    content: $isax-notification-favorite; 
+  }
+}
+.isax-notification-circle {
+  &:before {
+    content: $isax-notification-circle; 
+  }
+}
+.isax-notification-bing {
+  &:before {
+    content: $isax-notification-bing; 
+  }
+}
+.isax-notification-1 {
+  &:before {
+    content: $isax-notification-1; 
+  }
+}
+.isax-notification {
+  &:before {
+    content: $isax-notification; 
+  }
+}
+.isax-note-text {
+  &:before {
+    content: $isax-note-text; 
+  }
+}
+.isax-note-square {
+  &:before {
+    content: $isax-note-square; 
+  }
+}
+.isax-note-remove {
+  &:before {
+    content: $isax-note-remove; 
+  }
+}
+.isax-note-favorite {
+  &:before {
+    content: $isax-note-favorite; 
+  }
+}
+.isax-note-add {
+  &:before {
+    content: $isax-note-add; 
+  }
+}
+.isax-note-21 {
+  &:before {
+    content: $isax-note-21; 
+  }
+}
+.isax-note-2 {
+  &:before {
+    content: $isax-note-2; 
+  }
+}
+.isax-note-1 {
+  &:before {
+    content: $isax-note-1; 
+  }
+}
+.isax-note {
+  &:before {
+    content: $isax-note; 
+  }
+}
+.isax-next {
+  &:before {
+    content: $isax-next; 
+  }
+}
+.isax-music-square-search {
+  &:before {
+    content: $isax-music-square-search; 
+  }
+}
+.isax-music-square-remove {
+  &:before {
+    content: $isax-music-square-remove; 
+  }
+}
+.isax-music-square-add {
+  &:before {
+    content: $isax-music-square-add; 
+  }
+}
+.isax-music-square {
+  &:before {
+    content: $isax-music-square; 
+  }
+}
+.isax-music-playlist {
+  &:before {
+    content: $isax-music-playlist; 
+  }
+}
+.isax-music-play {
+  &:before {
+    content: $isax-music-play; 
+  }
+}
+.isax-musicnote {
+  &:before {
+    content: $isax-musicnote; 
+  }
+}
+.isax-music-library-2 {
+  &:before {
+    content: $isax-music-library-2; 
+  }
+}
+.isax-music-filter {
+  &:before {
+    content: $isax-music-filter; 
+  }
+}
+.isax-music-dashboard {
+  &:before {
+    content: $isax-music-dashboard; 
+  }
+}
+.isax-music-circle {
+  &:before {
+    content: $isax-music-circle; 
+  }
+}
+.isax-music {
+  &:before {
+    content: $isax-music; 
+  }
+}
+.isax-mouse-square {
+  &:before {
+    content: $isax-mouse-square; 
+  }
+}
+.isax-mouse-circle {
+  &:before {
+    content: $isax-mouse-circle; 
+  }
+}
+.isax-mouse-1 {
+  &:before {
+    content: $isax-mouse-1; 
+  }
+}
+.isax-mouse {
+  &:before {
+    content: $isax-mouse; 
+  }
+}
+.isax-more-square {
+  &:before {
+    content: $isax-more-square; 
+  }
+}
+.isax-more-circle {
+  &:before {
+    content: $isax-more-circle; 
+  }
+}
+.isax-more-2 {
+  &:before {
+    content: $isax-more-2; 
+  }
+}
+.isax-more {
+  &:before {
+    content: $isax-more; 
+  }
+}
+.isax-moon {
+  &:before {
+    content: $isax-moon; 
+  }
+}
+.isax-monitor-recorder {
+  &:before {
+    content: $isax-monitor-recorder; 
+  }
+}
+.isax-monitor-mobbile {
+  &:before {
+    content: $isax-monitor-mobbile; 
+  }
+}
+.isax-monitor {
+  &:before {
+    content: $isax-monitor; 
+  }
+}
+.isax-money-time {
+  &:before {
+    content: $isax-money-time; 
+  }
+}
+.isax-money-tick {
+  &:before {
+    content: $isax-money-tick; 
+  }
+}
+.isax-money-send {
+  &:before {
+    content: $isax-money-send; 
+  }
+}
+.isax-moneys {
+  &:before {
+    content: $isax-moneys; 
+  }
+}
+.isax-money-remove {
+  &:before {
+    content: $isax-money-remove; 
+  }
+}
+.isax-money-recive {
+  &:before {
+    content: $isax-money-recive; 
+  }
+}
+.isax-money-forbidden {
+  &:before {
+    content: $isax-money-forbidden; 
+  }
+}
+.isax-money-change {
+  &:before {
+    content: $isax-money-change; 
+  }
+}
+.isax-money-add {
+  &:before {
+    content: $isax-money-add; 
+  }
+}
+.isax-money-4 {
+  &:before {
+    content: $isax-money-4; 
+  }
+}
+.isax-money-3 {
+  &:before {
+    content: $isax-money-3; 
+  }
+}
+.isax-money-2 {
+  &:before {
+    content: $isax-money-2; 
+  }
+}
+.isax-money {
+  &:before {
+    content: $isax-money; 
+  }
+}
+.isax-mobile-programming {
+  &:before {
+    content: $isax-mobile-programming; 
+  }
+}
+.isax-mobile {
+  &:before {
+    content: $isax-mobile; 
+  }
+}
+.isax-mirroring-screen {
+  &:before {
+    content: $isax-mirroring-screen; 
+  }
+}
+.isax-mirror {
+  &:before {
+    content: $isax-mirror; 
+  }
+}
+.isax-minus-square {
+  &:before {
+    content: $isax-minus-square; 
+  }
+}
+.isax-minus-cirlce {
+  &:before {
+    content: $isax-minus-cirlce; 
+  }
+}
+.isax-minus {
+  &:before {
+    content: $isax-minus; 
+  }
+}
+.isax-mini-music-sqaure {
+  &:before {
+    content: $isax-mini-music-sqaure; 
+  }
+}
+.isax-milk {
+  &:before {
+    content: $isax-milk; 
+  }
+}
+.isax-microscope {
+  &:before {
+    content: $isax-microscope; 
+  }
+}
+.isax-microphone-slash-1 {
+  &:before {
+    content: $isax-microphone-slash-1; 
+  }
+}
+.isax-microphone-slash {
+  &:before {
+    content: $isax-microphone-slash; 
+  }
+}
+.isax-microphone-2 {
+  &:before {
+    content: $isax-microphone-2; 
+  }
+}
+.isax-microphone {
+  &:before {
+    content: $isax-microphone; 
+  }
+}
+.isax-message-time {
+  &:before {
+    content: $isax-message-time; 
+  }
+}
+.isax-message-tick {
+  &:before {
+    content: $isax-message-tick; 
+  }
+}
+.isax-message-text-1 {
+  &:before {
+    content: $isax-message-text-1; 
+  }
+}
+.isax-message-text {
+  &:before {
+    content: $isax-message-text; 
+  }
+}
+.isax-message-square {
+  &:before {
+    content: $isax-message-square; 
+  }
+}
+.isax-message-search {
+  &:before {
+    content: $isax-message-search; 
+  }
+}
+.isax-messages-3 {
+  &:before {
+    content: $isax-messages-3; 
+  }
+}
+.isax-messages-2 {
+  &:before {
+    content: $isax-messages-2; 
+  }
+}
+.isax-messages-1 {
+  &:before {
+    content: $isax-messages-1; 
+  }
+}
+.isax-messages {
+  &:before {
+    content: $isax-messages; 
+  }
+}
+.isax-message-remove {
+  &:before {
+    content: $isax-message-remove; 
+  }
+}
+.isax-message-question {
+  &:before {
+    content: $isax-message-question; 
+  }
+}
+.isax-message-programming {
+  &:before {
+    content: $isax-message-programming; 
+  }
+}
+.isax-message-notif {
+  &:before {
+    content: $isax-message-notif; 
+  }
+}
+.isax-message-minus {
+  &:before {
+    content: $isax-message-minus; 
+  }
+}
+.isax-message-favorite {
+  &:before {
+    content: $isax-message-favorite; 
+  }
+}
+.isax-message-edit {
+  &:before {
+    content: $isax-message-edit; 
+  }
+}
+.isax-message-circle {
+  &:before {
+    content: $isax-message-circle; 
+  }
+}
+.isax-message-add-1 {
+  &:before {
+    content: $isax-message-add-1; 
+  }
+}
+.isax-message-add {
+  &:before {
+    content: $isax-message-add; 
+  }
+}
+.isax-message-2 {
+  &:before {
+    content: $isax-message-2; 
+  }
+}
+.isax-message {
+  &:before {
+    content: $isax-message; 
+  }
+}
+.isax-menu-board {
+  &:before {
+    content: $isax-menu-board; 
+  }
+}
+.isax-menu-1 {
+  &:before {
+    content: $isax-menu-1; 
+  }
+}
+.isax-menu {
+  &:before {
+    content: $isax-menu; 
+  }
+}
+.isax-medal-star {
+  &:before {
+    content: $isax-medal-star; 
+  }
+}
+.isax-medal {
+  &:before {
+    content: $isax-medal; 
+  }
+}
+.isax-maximize-circle {
+  &:before {
+    content: $isax-maximize-circle; 
+  }
+}
+.isax-maximize-21 {
+  &:before {
+    content: $isax-maximize-21; 
+  }
+}
+.isax-maximize-4 {
+  &:before {
+    content: $isax-maximize-4; 
+  }
+}
+.isax-maximize-3 {
+  &:before {
+    content: $isax-maximize-3; 
+  }
+}
+.isax-maximize-2 {
+  &:before {
+    content: $isax-maximize-2; 
+  }
+}
+.isax-maximize-1 {
+  &:before {
+    content: $isax-maximize-1; 
+  }
+}
+.isax-maximize {
+  &:before {
+    content: $isax-maximize; 
+  }
+}
+.isax-math {
+  &:before {
+    content: $isax-math; 
+  }
+}
+.isax-mask-3 {
+  &:before {
+    content: $isax-mask-3; 
+  }
+}
+.isax-mask-2 {
+  &:before {
+    content: $isax-mask-2; 
+  }
+}
+.isax-mask-1 {
+  &:before {
+    content: $isax-mask-1; 
+  }
+}
+.isax-mask {
+  &:before {
+    content: $isax-mask; 
+  }
+}
+.isax-map-1 {
+  &:before {
+    content: $isax-map-1; 
+  }
+}
+.isax-map {
+  &:before {
+    content: $isax-map; 
+  }
+}
+.isax-man {
+  &:before {
+    content: $isax-man; 
+  }
+}
+.isax-main-component-1 {
+  &:before {
+    content: $isax-main-component-1; 
+  }
+}
+.isax-main-component {
+  &:before {
+    content: $isax-main-component; 
+  }
+}
+.isax-magic-star {
+  &:before {
+    content: $isax-magic-star; 
+  }
+}
+.isax-magicpen {
+  &:before {
+    content: $isax-magicpen; 
+  }
+}
+.isax-lovely {
+  &:before {
+    content: $isax-lovely; 
+  }
+}
+.isax-logout-1 {
+  &:before {
+    content: $isax-logout-1; 
+  }
+}
+.isax-logout {
+  &:before {
+    content: $isax-logout; 
+  }
+}
+.isax-login-1 {
+  &:before {
+    content: $isax-login-1; 
+  }
+}
+.isax-login {
+  &:before {
+    content: $isax-login; 
+  }
+}
+.isax-lock-slash {
+  &:before {
+    content: $isax-lock-slash; 
+  }
+}
+.isax-lock-circle {
+  &:before {
+    content: $isax-lock-circle; 
+  }
+}
+.isax-lock-1 {
+  &:before {
+    content: $isax-lock-1; 
+  }
+}
+.isax-lock {
+  &:before {
+    content: $isax-lock; 
+  }
+}
+.isax-location-tick {
+  &:before {
+    content: $isax-location-tick; 
+  }
+}
+.isax-location-slash {
+  &:before {
+    content: $isax-location-slash; 
+  }
+}
+.isax-location-minus {
+  &:before {
+    content: $isax-location-minus; 
+  }
+}
+.isax-location-cross {
+  &:before {
+    content: $isax-location-cross; 
+  }
+}
+.isax-location-add {
+  &:before {
+    content: $isax-location-add; 
+  }
+}
+.isax-location {
+  &:before {
+    content: $isax-location; 
+  }
+}
+.isax-link-square {
+  &:before {
+    content: $isax-link-square; 
+  }
+}
+.isax-link-circle {
+  &:before {
+    content: $isax-link-circle; 
+  }
+}
+.isax-link-21 {
+  &:before {
+    content: $isax-link-21; 
+  }
+}
+.isax-link-2 {
+  &:before {
+    content: $isax-link-2; 
+  }
+}
+.isax-link-1 {
+  &:before {
+    content: $isax-link-1; 
+  }
+}
+.isax-link {
+  &:before {
+    content: $isax-link; 
+  }
+}
+.isax-like-tag {
+  &:before {
+    content: $isax-like-tag; 
+  }
+}
+.isax-like-shapes {
+  &:before {
+    content: $isax-like-shapes; 
+  }
+}
+.isax-like-dislike {
+  &:before {
+    content: $isax-like-dislike; 
+  }
+}
+.isax-like-1 {
+  &:before {
+    content: $isax-like-1; 
+  }
+}
+.isax-like {
+  &:before {
+    content: $isax-like; 
+  }
+}
+.isax-lifebuoy {
+  &:before {
+    content: $isax-lifebuoy; 
+  }
+}
+.isax-level {
+  &:before {
+    content: $isax-level; 
+  }
+}
+.isax-layer {
+  &:before {
+    content: $isax-layer; 
+  }
+}
+.isax-language-square {
+  &:before {
+    content: $isax-language-square; 
+  }
+}
+.isax-language-circle {
+  &:before {
+    content: $isax-language-circle; 
+  }
+}
+.isax-lamp-slash {
+  &:before {
+    content: $isax-lamp-slash; 
+  }
+}
+.isax-lamp-on {
+  &:before {
+    content: $isax-lamp-on; 
+  }
+}
+.isax-lamp-charge {
+  &:before {
+    content: $isax-lamp-charge; 
+  }
+}
+.isax-lamp-1 {
+  &:before {
+    content: $isax-lamp-1; 
+  }
+}
+.isax-lamp {
+  &:before {
+    content: $isax-lamp; 
+  }
+}
+.isax-key-square {
+  &:before {
+    content: $isax-key-square; 
+  }
+}
+.isax-keyboard-open {
+  &:before {
+    content: $isax-keyboard-open; 
+  }
+}
+.isax-keyboard {
+  &:before {
+    content: $isax-keyboard; 
+  }
+}
+.isax-key {
+  &:before {
+    content: $isax-key; 
+  }
+}
+.isax-kanban {
+  &:before {
+    content: $isax-kanban; 
+  }
+}
+.isax-judge {
+  &:before {
+    content: $isax-judge; 
+  }
+}
+.isax-instagram {
+  &:before {
+    content: $isax-instagram; 
+  }
+}
+.isax-information {
+  &:before {
+    content: $isax-information; 
+  }
+}
+.isax-info-circle {
+  &:before {
+    content: $isax-info-circle; 
+  }
+}
+.isax-import-2 {
+  &:before {
+    content: $isax-import-2; 
+  }
+}
+.isax-import-1 {
+  &:before {
+    content: $isax-import-1; 
+  }
+}
+.isax-import {
+  &:before {
+    content: $isax-import; 
+  }
+}
+.isax-image {
+  &:before {
+    content: $isax-image; 
+  }
+}
+.isax-house-2 {
+  &:before {
+    content: $isax-house-2; 
+  }
+}
+.isax-house {
+  &:before {
+    content: $isax-house; 
+  }
+}
+.isax-hospital {
+  &:before {
+    content: $isax-hospital; 
+  }
+}
+.isax-home-wifi {
+  &:before {
+    content: $isax-home-wifi; 
+  }
+}
+.isax-home-trend-up {
+  &:before {
+    content: $isax-home-trend-up; 
+  }
+}
+.isax-home-trend-down {
+  &:before {
+    content: $isax-home-trend-down; 
+  }
+}
+.isax-home-hashtag {
+  &:before {
+    content: $isax-home-hashtag; 
+  }
+}
+.isax-home-2 {
+  &:before {
+    content: $isax-home-2; 
+  }
+}
+.isax-home {
+  &:before {
+    content: $isax-home; 
+  }
+}
+.isax-hierarchy-square-3 {
+  &:before {
+    content: $isax-hierarchy-square-3; 
+  }
+}
+.isax-hierarchy-square-2 {
+  &:before {
+    content: $isax-hierarchy-square-2; 
+  }
+}
+.isax-hierarchy-square {
+  &:before {
+    content: $isax-hierarchy-square; 
+  }
+}
+.isax-hierarchy-3 {
+  &:before {
+    content: $isax-hierarchy-3; 
+  }
+}
+.isax-hierarchy-2 {
+  &:before {
+    content: $isax-hierarchy-2; 
+  }
+}
+.isax-hierarchy {
+  &:before {
+    content: $isax-hierarchy; 
+  }
+}
+.isax-heart-tick {
+  &:before {
+    content: $isax-heart-tick; 
+  }
+}
+.isax-heart-slash {
+  &:before {
+    content: $isax-heart-slash; 
+  }
+}
+.isax-heart-search {
+  &:before {
+    content: $isax-heart-search; 
+  }
+}
+.isax-heart-remove {
+  &:before {
+    content: $isax-heart-remove; 
+  }
+}
+.isax-heart-edit {
+  &:before {
+    content: $isax-heart-edit; 
+  }
+}
+.isax-heart-circle {
+  &:before {
+    content: $isax-heart-circle; 
+  }
+}
+.isax-heart-add {
+  &:before {
+    content: $isax-heart-add; 
+  }
+}
+.isax-heart {
+  &:before {
+    content: $isax-heart; 
+  }
+}
+.isax-health {
+  &:before {
+    content: $isax-health; 
+  }
+}
+.isax-headphones {
+  &:before {
+    content: $isax-headphones; 
+  }
+}
+.isax-headphone {
+  &:before {
+    content: $isax-headphone; 
+  }
+}
+.isax-hashtag-up {
+  &:before {
+    content: $isax-hashtag-up; 
+  }
+}
+.isax-hashtag-down {
+  &:before {
+    content: $isax-hashtag-down; 
+  }
+}
+.isax-hashtag-1 {
+  &:before {
+    content: $isax-hashtag-1; 
+  }
+}
+.isax-hashtag {
+  &:before {
+    content: $isax-hashtag; 
+  }
+}
+.isax-happyemoji {
+  &:before {
+    content: $isax-happyemoji; 
+  }
+}
+.isax-group-11 {
+  &:before {
+    content: $isax-group-11; 
+  }
+}
+.isax-group-10 {
+  &:before {
+    content: $isax-group-10; 
+  }
+}
+.isax-group-9 {
+  &:before {
+    content: $isax-group-9; 
+  }
+}
+.isax-group-8 {
+  &:before {
+    content: $isax-group-8; 
+  }
+}
+.isax-group-7 {
+  &:before {
+    content: $isax-group-7; 
+  }
+}
+.isax-group-6 {
+  &:before {
+    content: $isax-group-6; 
+  }
+}
+.isax-group-5 {
+  &:before {
+    content: $isax-group-5; 
+  }
+}
+.isax-group-4 {
+  &:before {
+    content: $isax-group-4; 
+  }
+}
+.isax-group-3 {
+  &:before {
+    content: $isax-group-3; 
+  }
+}
+.isax-group-2 {
+  &:before {
+    content: $isax-group-2; 
+  }
+}
+.isax-group-1 {
+  &:before {
+    content: $isax-group-1; 
+  }
+}
+.isax-group {
+  &:before {
+    content: $isax-group; 
+  }
+}
+.isax-grid-lock {
+  &:before {
+    content: $isax-grid-lock; 
+  }
+}
+.isax-grid-eraser {
+  &:before {
+    content: $isax-grid-eraser; 
+  }
+}
+.isax-grid-edit {
+  &:before {
+    content: $isax-grid-edit; 
+  }
+}
+.isax-grid-9 {
+  &:before {
+    content: $isax-grid-9; 
+  }
+}
+.isax-grid-8 {
+  &:before {
+    content: $isax-grid-8; 
+  }
+}
+.isax-grid-7 {
+  &:before {
+    content: $isax-grid-7; 
+  }
+}
+.isax-grid-6 {
+  &:before {
+    content: $isax-grid-6; 
+  }
+}
+.isax-grid-5 {
+  &:before {
+    content: $isax-grid-5; 
+  }
+}
+.isax-grid-4 {
+  &:before {
+    content: $isax-grid-4; 
+  }
+}
+.isax-grid-3 {
+  &:before {
+    content: $isax-grid-3; 
+  }
+}
+.isax-grid-2 {
+  &:before {
+    content: $isax-grid-2; 
+  }
+}
+.isax-grid-1 {
+  &:before {
+    content: $isax-grid-1; 
+  }
+}
+.isax-graph {
+  &:before {
+    content: $isax-graph; 
+  }
+}
+.isax-grammerly {
+  &:before {
+    content: $isax-grammerly; 
+  }
+}
+.isax-gps-slash {
+  &:before {
+    content: $isax-gps-slash; 
+  }
+}
+.isax-gps {
+  &:before {
+    content: $isax-gps; 
+  }
+}
+.isax-global-search {
+  &:before {
+    content: $isax-global-search; 
+  }
+}
+.isax-global-refresh {
+  &:before {
+    content: $isax-global-refresh; 
+  }
+}
+.isax-global-edit {
+  &:before {
+    content: $isax-global-edit; 
+  }
+}
+.isax-global {
+  &:before {
+    content: $isax-global; 
+  }
+}
+.isax-glass-1 {
+  &:before {
+    content: $isax-glass-1; 
+  }
+}
+.isax-glass {
+  &:before {
+    content: $isax-glass; 
+  }
+}
+.isax-gift {
+  &:before {
+    content: $isax-gift; 
+  }
+}
+.isax-ghost {
+  &:before {
+    content: $isax-ghost; 
+  }
+}
+.isax-gemini-2 {
+  &:before {
+    content: $isax-gemini-2; 
+  }
+}
+.isax-gemini {
+  &:before {
+    content: $isax-gemini; 
+  }
+}
+.isax-gas-station {
+  &:before {
+    content: $isax-gas-station; 
+  }
+}
+.isax-gameboy {
+  &:before {
+    content: $isax-gameboy; 
+  }
+}
+.isax-game {
+  &:before {
+    content: $isax-game; 
+  }
+}
+.isax-gallery-tick {
+  &:before {
+    content: $isax-gallery-tick; 
+  }
+}
+.isax-gallery-slash {
+  &:before {
+    content: $isax-gallery-slash; 
+  }
+}
+.isax-gallery-remove {
+  &:before {
+    content: $isax-gallery-remove; 
+  }
+}
+.isax-gallery-import {
+  &:before {
+    content: $isax-gallery-import; 
+  }
+}
+.isax-gallery-favorite {
+  &:before {
+    content: $isax-gallery-favorite; 
+  }
+}
+.isax-gallery-export {
+  &:before {
+    content: $isax-gallery-export; 
+  }
+}
+.isax-gallery-edit {
+  &:before {
+    content: $isax-gallery-edit; 
+  }
+}
+.isax-gallery-add {
+  &:before {
+    content: $isax-gallery-add; 
+  }
+}
+.isax-gallery {
+  &:before {
+    content: $isax-gallery; 
+  }
+}
+.isax-frame-5 {
+  &:before {
+    content: $isax-frame-5; 
+  }
+}
+.isax-frame-4 {
+  &:before {
+    content: $isax-frame-4; 
+  }
+}
+.isax-frame-3 {
+  &:before {
+    content: $isax-frame-3; 
+  }
+}
+.isax-frame-2 {
+  &:before {
+    content: $isax-frame-2; 
+  }
+}
+.isax-frame-1 {
+  &:before {
+    content: $isax-frame-1; 
+  }
+}
+.isax-frame {
+  &:before {
+    content: $isax-frame; 
+  }
+}
+.isax-forward-square {
+  &:before {
+    content: $isax-forward-square; 
+  }
+}
+.isax-forward-item-1 {
+  &:before {
+    content: $isax-forward-item-1; 
+  }
+}
+.isax-forward-item {
+  &:before {
+    content: $isax-forward-item; 
+  }
+}
+.isax-forward-15-seconds {
+  &:before {
+    content: $isax-forward-15-seconds; 
+  }
+}
+.isax-forward-10-seconds {
+  &:before {
+    content: $isax-forward-10-seconds; 
+  }
+}
+.isax-forward-5-seconds {
+  &:before {
+    content: $isax-forward-5-seconds; 
+  }
+}
+.isax-forward {
+  &:before {
+    content: $isax-forward; 
+  }
+}
+.isax-format-square {
+  &:before {
+    content: $isax-format-square; 
+  }
+}
+.isax-format-circle {
+  &:before {
+    content: $isax-format-circle; 
+  }
+}
+.isax-folder-open {
+  &:before {
+    content: $isax-folder-open; 
+  }
+}
+.isax-folder-minus {
+  &:before {
+    content: $isax-folder-minus; 
+  }
+}
+.isax-folder-favorite {
+  &:before {
+    content: $isax-folder-favorite; 
+  }
+}
+.isax-folder-cross {
+  &:before {
+    content: $isax-folder-cross; 
+  }
+}
+.isax-folder-connection {
+  &:before {
+    content: $isax-folder-connection; 
+  }
+}
+.isax-folder-cloud {
+  &:before {
+    content: $isax-folder-cloud; 
+  }
+}
+.isax-folder-add {
+  &:before {
+    content: $isax-folder-add; 
+  }
+}
+.isax-folder-2 {
+  &:before {
+    content: $isax-folder-2; 
+  }
+}
+.isax-folder {
+  &:before {
+    content: $isax-folder; 
+  }
+}
+.isax-flash-slash {
+  &:before {
+    content: $isax-flash-slash; 
+  }
+}
+.isax-flash-circle-2 {
+  &:before {
+    content: $isax-flash-circle-2; 
+  }
+}
+.isax-flash-circle-1 {
+  &:before {
+    content: $isax-flash-circle-1; 
+  }
+}
+.isax-flash-circle {
+  &:before {
+    content: $isax-flash-circle; 
+  }
+}
+.isax-flash-1 {
+  &:before {
+    content: $isax-flash-1; 
+  }
+}
+.isax-flash {
+  &:before {
+    content: $isax-flash; 
+  }
+}
+.isax-flag-2 {
+  &:before {
+    content: $isax-flag-2; 
+  }
+}
+.isax-flag {
+  &:before {
+    content: $isax-flag; 
+  }
+}
+.isax-firstline {
+  &:before {
+    content: $isax-firstline; 
+  }
+}
+.isax-finger-scan {
+  &:before {
+    content: $isax-finger-scan; 
+  }
+}
+.isax-finger-cricle {
+  &:before {
+    content: $isax-finger-cricle; 
+  }
+}
+.isax-filter-tick {
+  &:before {
+    content: $isax-filter-tick; 
+  }
+}
+.isax-filter-square {
+  &:before {
+    content: $isax-filter-square; 
+  }
+}
+.isax-filter-search {
+  &:before {
+    content: $isax-filter-search; 
+  }
+}
+.isax-filter-remove {
+  &:before {
+    content: $isax-filter-remove; 
+  }
+}
+.isax-filter-edit {
+  &:before {
+    content: $isax-filter-edit; 
+  }
+}
+.isax-filter-add {
+  &:before {
+    content: $isax-filter-add; 
+  }
+}
+.isax-filter {
+  &:before {
+    content: $isax-filter; 
+  }
+}
+.isax-favorite-chart {
+  &:before {
+    content: $isax-favorite-chart; 
+  }
+}
+.isax-fatrows {
+  &:before {
+    content: $isax-fatrows; 
+  }
+}
+.isax-eye-slash {
+  &:before {
+    content: $isax-eye-slash; 
+  }
+}
+.isax-eye {
+  &:before {
+    content: $isax-eye; 
+  }
+}
+.isax-external-drive {
+  &:before {
+    content: $isax-external-drive; 
+  }
+}
+.isax-export-3 {
+  &:before {
+    content: $isax-export-3; 
+  }
+}
+.isax-export-2 {
+  &:before {
+    content: $isax-export-2; 
+  }
+}
+.isax-export-1 {
+  &:before {
+    content: $isax-export-1; 
+  }
+}
+.isax-export {
+  &:before {
+    content: $isax-export; 
+  }
+}
+.isax-eraser-2 {
+  &:before {
+    content: $isax-eraser-2; 
+  }
+}
+.isax-eraser-1 {
+  &:before {
+    content: $isax-eraser-1; 
+  }
+}
+.isax-eraser {
+  &:before {
+    content: $isax-eraser; 
+  }
+}
+.isax-empty-wallet-time {
+  &:before {
+    content: $isax-empty-wallet-time; 
+  }
+}
+.isax-empty-wallet-tick {
+  &:before {
+    content: $isax-empty-wallet-tick; 
+  }
+}
+.isax-empty-wallet-remove {
+  &:before {
+    content: $isax-empty-wallet-remove; 
+  }
+}
+.isax-empty-wallet-change {
+  &:before {
+    content: $isax-empty-wallet-change; 
+  }
+}
+.isax-empty-wallet-add {
+  &:before {
+    content: $isax-empty-wallet-add; 
+  }
+}
+.isax-empty-wallet {
+  &:before {
+    content: $isax-empty-wallet; 
+  }
+}
+.isax-emoji-sad {
+  &:before {
+    content: $isax-emoji-sad; 
+  }
+}
+.isax-emoji-normal {
+  &:before {
+    content: $isax-emoji-normal; 
+  }
+}
+.isax-emoji-happy {
+  &:before {
+    content: $isax-emoji-happy; 
+  }
+}
+.isax-element-plus {
+  &:before {
+    content: $isax-element-plus; 
+  }
+}
+.isax-element-equal {
+  &:before {
+    content: $isax-element-equal; 
+  }
+}
+.isax-element-4 {
+  &:before {
+    content: $isax-element-4; 
+  }
+}
+.isax-element-3 {
+  &:before {
+    content: $isax-element-3; 
+  }
+}
+.isax-element-2 {
+  &:before {
+    content: $isax-element-2; 
+  }
+}
+.isax-element-1 {
+  &:before {
+    content: $isax-element-1; 
+  }
+}
+.isax-electricity {
+  &:before {
+    content: $isax-electricity; 
+  }
+}
+.isax-edit-2 {
+  &:before {
+    content: $isax-edit-2; 
+  }
+}
+.isax-edit {
+  &:before {
+    content: $isax-edit; 
+  }
+}
+.isax-drop {
+  &:before {
+    content: $isax-drop; 
+  }
+}
+.isax-driving {
+  &:before {
+    content: $isax-driving; 
+  }
+}
+.isax-driver-refresh {
+  &:before {
+    content: $isax-driver-refresh; 
+  }
+}
+.isax-driver-2 {
+  &:before {
+    content: $isax-driver-2; 
+  }
+}
+.isax-driver {
+  &:before {
+    content: $isax-driver; 
+  }
+}
+.isax-dollar-square {
+  &:before {
+    content: $isax-dollar-square; 
+  }
+}
+.isax-dollar-circle {
+  &:before {
+    content: $isax-dollar-circle; 
+  }
+}
+.isax-document-upload {
+  &:before {
+    content: $isax-document-upload; 
+  }
+}
+.isax-document-text-1 {
+  &:before {
+    content: $isax-document-text-1; 
+  }
+}
+.isax-document-text {
+  &:before {
+    content: $isax-document-text; 
+  }
+}
+.isax-document-sketch {
+  &:before {
+    content: $isax-document-sketch; 
+  }
+}
+.isax-document-previous {
+  &:before {
+    content: $isax-document-previous; 
+  }
+}
+.isax-document-normal {
+  &:before {
+    content: $isax-document-normal; 
+  }
+}
+.isax-document-like {
+  &:before {
+    content: $isax-document-like; 
+  }
+}
+.isax-document-forward {
+  &:before {
+    content: $isax-document-forward; 
+  }
+}
+.isax-document-filter {
+  &:before {
+    content: $isax-document-filter; 
+  }
+}
+.isax-document-favorite {
+  &:before {
+    content: $isax-document-favorite; 
+  }
+}
+.isax-document-download {
+  &:before {
+    content: $isax-document-download; 
+  }
+}
+.isax-document-copy {
+  &:before {
+    content: $isax-document-copy; 
+  }
+}
+.isax-document-code-2 {
+  &:before {
+    content: $isax-document-code-2; 
+  }
+}
+.isax-document-code {
+  &:before {
+    content: $isax-document-code; 
+  }
+}
+.isax-document-cloud {
+  &:before {
+    content: $isax-document-cloud; 
+  }
+}
+.isax-document-1 {
+  &:before {
+    content: $isax-document-1; 
+  }
+}
+.isax-document {
+  &:before {
+    content: $isax-document; 
+  }
+}
+.isax-dislike {
+  &:before {
+    content: $isax-dislike; 
+  }
+}
+.isax-discover-1 {
+  &:before {
+    content: $isax-discover-1; 
+  }
+}
+.isax-discover {
+  &:before {
+    content: $isax-discover; 
+  }
+}
+.isax-discount-shape {
+  &:before {
+    content: $isax-discount-shape; 
+  }
+}
+.isax-discount-circle {
+  &:before {
+    content: $isax-discount-circle; 
+  }
+}
+.isax-direct-up {
+  &:before {
+    content: $isax-direct-up; 
+  }
+}
+.isax-direct-send {
+  &:before {
+    content: $isax-direct-send; 
+  }
+}
+.isax-direct-right {
+  &:before {
+    content: $isax-direct-right; 
+  }
+}
+.isax-direct-notification {
+  &:before {
+    content: $isax-direct-notification; 
+  }
+}
+.isax-direct-normal {
+  &:before {
+    content: $isax-direct-normal; 
+  }
+}
+.isax-direct-left {
+  &:before {
+    content: $isax-direct-left; 
+  }
+}
+.isax-direct-inbox {
+  &:before {
+    content: $isax-direct-inbox; 
+  }
+}
+.isax-direct-down {
+  &:before {
+    content: $isax-direct-down; 
+  }
+}
+.isax-directbox-send {
+  &:before {
+    content: $isax-directbox-send; 
+  }
+}
+.isax-directbox-receive {
+  &:before {
+    content: $isax-directbox-receive; 
+  }
+}
+.isax-directbox-notif {
+  &:before {
+    content: $isax-directbox-notif; 
+  }
+}
+.isax-directbox-default {
+  &:before {
+    content: $isax-directbox-default; 
+  }
+}
+.isax-direct {
+  &:before {
+    content: $isax-direct; 
+  }
+}
+.isax-diamonds {
+  &:before {
+    content: $isax-diamonds; 
+  }
+}
+.isax-diagram {
+  &:before {
+    content: $isax-diagram; 
+  }
+}
+.isax-devices-1 {
+  &:before {
+    content: $isax-devices-1; 
+  }
+}
+.isax-devices {
+  &:before {
+    content: $isax-devices; 
+  }
+}
+.isax-device-message {
+  &:before {
+    content: $isax-device-message; 
+  }
+}
+.isax-designtools {
+  &:before {
+    content: $isax-designtools; 
+  }
+}
+.isax-data-2 {
+  &:before {
+    content: $isax-data-2; 
+  }
+}
+.isax-data {
+  &:before {
+    content: $isax-data; 
+  }
+}
+.isax-danger {
+  &:before {
+    content: $isax-danger; 
+  }
+}
+.isax-cup {
+  &:before {
+    content: $isax-cup; 
+  }
+}
+.isax-crown-1 {
+  &:before {
+    content: $isax-crown-1; 
+  }
+}
+.isax-crown {
+  &:before {
+    content: $isax-crown; 
+  }
+}
+.isax-crop {
+  &:before {
+    content: $isax-crop; 
+  }
+}
+.isax-creative-commons {
+  &:before {
+    content: $isax-creative-commons; 
+  }
+}
+.isax-cpu-setting {
+  &:before {
+    content: $isax-cpu-setting; 
+  }
+}
+.isax-cpu-charge {
+  &:before {
+    content: $isax-cpu-charge; 
+  }
+}
+.isax-cpu {
+  &:before {
+    content: $isax-cpu; 
+  }
+}
+.isax-courthouse {
+  &:before {
+    content: $isax-courthouse; 
+  }
+}
+.isax-copy-success {
+  &:before {
+    content: $isax-copy-success; 
+  }
+}
+.isax-copyright {
+  &:before {
+    content: $isax-copyright; 
+  }
+}
+.isax-copy {
+  &:before {
+    content: $isax-copy; 
+  }
+}
+.isax-convertshape-2 {
+  &:before {
+    content: $isax-convertshape-2; 
+  }
+}
+.isax-convertshape {
+  &:before {
+    content: $isax-convertshape; 
+  }
+}
+.isax-convert-3d-cube {
+  &:before {
+    content: $isax-convert-3d-cube; 
+  }
+}
+.isax-convert {
+  &:before {
+    content: $isax-convert; 
+  }
+}
+.isax-computing {
+  &:before {
+    content: $isax-computing; 
+  }
+}
+.isax-component-1 {
+  &:before {
+    content: $isax-component-1; 
+  }
+}
+.isax-component {
+  &:before {
+    content: $isax-component; 
+  }
+}
+.isax-command-square {
+  &:before {
+    content: $isax-command-square; 
+  }
+}
+.isax-command {
+  &:before {
+    content: $isax-command; 
+  }
+}
+.isax-color-swatch {
+  &:before {
+    content: $isax-color-swatch; 
+  }
+}
+.isax-colors-square-1 {
+  &:before {
+    content: $isax-colors-square-1; 
+  }
+}
+.isax-colors-square {
+  &:before {
+    content: $isax-colors-square; 
+  }
+}
+.isax-colorfilter {
+  &:before {
+    content: $isax-colorfilter; 
+  }
+}
+.isax-coin-1 {
+  &:before {
+    content: $isax-coin-1; 
+  }
+}
+.isax-coin {
+  &:before {
+    content: $isax-coin; 
+  }
+}
+.isax-coffee {
+  &:before {
+    content: $isax-coffee; 
+  }
+}
+.isax-code-circle {
+  &:before {
+    content: $isax-code-circle; 
+  }
+}
+.isax-code-1 {
+  &:before {
+    content: $isax-code-1; 
+  }
+}
+.isax-code {
+  &:before {
+    content: $isax-code; 
+  }
+}
+.isax-cloud-sunny {
+  &:before {
+    content: $isax-cloud-sunny; 
+  }
+}
+.isax-cloud-snow {
+  &:before {
+    content: $isax-cloud-snow; 
+  }
+}
+.isax-cloud-remove {
+  &:before {
+    content: $isax-cloud-remove; 
+  }
+}
+.isax-cloud-plus {
+  &:before {
+    content: $isax-cloud-plus; 
+  }
+}
+.isax-cloud-notif {
+  &:before {
+    content: $isax-cloud-notif; 
+  }
+}
+.isax-cloud-minus {
+  &:before {
+    content: $isax-cloud-minus; 
+  }
+}
+.isax-cloud-lightning {
+  &:before {
+    content: $isax-cloud-lightning; 
+  }
+}
+.isax-cloud-fog {
+  &:before {
+    content: $isax-cloud-fog; 
+  }
+}
+.isax-cloud-drizzle {
+  &:before {
+    content: $isax-cloud-drizzle; 
+  }
+}
+.isax-cloud-cross {
+  &:before {
+    content: $isax-cloud-cross; 
+  }
+}
+.isax-cloud-connection {
+  &:before {
+    content: $isax-cloud-connection; 
+  }
+}
+.isax-cloud-change {
+  &:before {
+    content: $isax-cloud-change; 
+  }
+}
+.isax-cloud-add {
+  &:before {
+    content: $isax-cloud-add; 
+  }
+}
+.isax-cloud {
+  &:before {
+    content: $isax-cloud; 
+  }
+}
+.isax-close-square {
+  &:before {
+    content: $isax-close-square; 
+  }
+}
+.isax-close-circle {
+  &:before {
+    content: $isax-close-circle; 
+  }
+}
+.isax-clock-1 {
+  &:before {
+    content: $isax-clock-1; 
+  }
+}
+.isax-clock {
+  &:before {
+    content: $isax-clock; 
+  }
+}
+.isax-clipboard-tick {
+  &:before {
+    content: $isax-clipboard-tick; 
+  }
+}
+.isax-clipboard-text {
+  &:before {
+    content: $isax-clipboard-text; 
+  }
+}
+.isax-clipboard-import {
+  &:before {
+    content: $isax-clipboard-import; 
+  }
+}
+.isax-clipboard-export {
+  &:before {
+    content: $isax-clipboard-export; 
+  }
+}
+.isax-clipboard-close {
+  &:before {
+    content: $isax-clipboard-close; 
+  }
+}
+.isax-clipboard {
+  &:before {
+    content: $isax-clipboard; 
+  }
+}
+.isax-chrome {
+  &:before {
+    content: $isax-chrome; 
+  }
+}
+.isax-check {
+  &:before {
+    content: $isax-check; 
+  }
+}
+.isax-chart-success {
+  &:before {
+    content: $isax-chart-success; 
+  }
+}
+.isax-chart-square {
+  &:before {
+    content: $isax-chart-square; 
+  }
+}
+.isax-chart-21 {
+  &:before {
+    content: $isax-chart-21; 
+  }
+}
+.isax-chart-3 {
+  &:before {
+    content: $isax-chart-3; 
+  }
+}
+.isax-chart-2 {
+  &:before {
+    content: $isax-chart-2; 
+  }
+}
+.isax-chart-1 {
+  &:before {
+    content: $isax-chart-1; 
+  }
+}
+.isax-chart {
+  &:before {
+    content: $isax-chart; 
+  }
+}
+.isax-cd {
+  &:before {
+    content: $isax-cd; 
+  }
+}
+.isax-category-2 {
+  &:before {
+    content: $isax-category-2; 
+  }
+}
+.isax-category {
+  &:before {
+    content: $isax-category; 
+  }
+}
+.isax-card-tick-1 {
+  &:before {
+    content: $isax-card-tick-1; 
+  }
+}
+.isax-card-tick {
+  &:before {
+    content: $isax-card-tick; 
+  }
+}
+.isax-card-slash {
+  &:before {
+    content: $isax-card-slash; 
+  }
+}
+.isax-card-send {
+  &:before {
+    content: $isax-card-send; 
+  }
+}
+.isax-cards {
+  &:before {
+    content: $isax-cards; 
+  }
+}
+.isax-card-remove-1 {
+  &:before {
+    content: $isax-card-remove-1; 
+  }
+}
+.isax-card-remove {
+  &:before {
+    content: $isax-card-remove; 
+  }
+}
+.isax-card-receive {
+  &:before {
+    content: $isax-card-receive; 
+  }
+}
+.isax-card-pos {
+  &:before {
+    content: $isax-card-pos; 
+  }
+}
+.isax-card-edit {
+  &:before {
+    content: $isax-card-edit; 
+  }
+}
+.isax-card-coin {
+  &:before {
+    content: $isax-card-coin; 
+  }
+}
+.isax-card-add {
+  &:before {
+    content: $isax-card-add; 
+  }
+}
+.isax-card {
+  &:before {
+    content: $isax-card; 
+  }
+}
+.isax-car {
+  &:before {
+    content: $isax-car; 
+  }
+}
+.isax-candle-2 {
+  &:before {
+    content: $isax-candle-2; 
+  }
+}
+.isax-candle {
+  &:before {
+    content: $isax-candle; 
+  }
+}
+.isax-camera-slash {
+  &:before {
+    content: $isax-camera-slash; 
+  }
+}
+.isax-camera {
+  &:before {
+    content: $isax-camera; 
+  }
+}
+.isax-call-slash {
+  &:before {
+    content: $isax-call-slash; 
+  }
+}
+.isax-call-remove {
+  &:before {
+    content: $isax-call-remove; 
+  }
+}
+.isax-call-received {
+  &:before {
+    content: $isax-call-received; 
+  }
+}
+.isax-call-outgoing {
+  &:before {
+    content: $isax-call-outgoing; 
+  }
+}
+.isax-call-minus {
+  &:before {
+    content: $isax-call-minus; 
+  }
+}
+.isax-call-incoming {
+  &:before {
+    content: $isax-call-incoming; 
+  }
+}
+.isax-call-calling {
+  &:before {
+    content: $isax-call-calling; 
+  }
+}
+.isax-call-add {
+  &:before {
+    content: $isax-call-add; 
+  }
+}
+.isax-call {
+  &:before {
+    content: $isax-call; 
+  }
+}
+.isax-calendar-tick {
+  &:before {
+    content: $isax-calendar-tick; 
+  }
+}
+.isax-calendar-search {
+  &:before {
+    content: $isax-calendar-search; 
+  }
+}
+.isax-calendar-remove {
+  &:before {
+    content: $isax-calendar-remove; 
+  }
+}
+.isax-calendar-edit {
+  &:before {
+    content: $isax-calendar-edit; 
+  }
+}
+.isax-calendar-circle {
+  &:before {
+    content: $isax-calendar-circle; 
+  }
+}
+.isax-calendar-add {
+  &:before {
+    content: $isax-calendar-add; 
+  }
+}
+.isax-calendar-2 {
+  &:before {
+    content: $isax-calendar-2; 
+  }
+}
+.isax-calendar-1 {
+  &:before {
+    content: $isax-calendar-1; 
+  }
+}
+.isax-calendar {
+  &:before {
+    content: $isax-calendar; 
+  }
+}
+.isax-calculator {
+  &:before {
+    content: $isax-calculator; 
+  }
+}
+.isax-cake {
+  &:before {
+    content: $isax-cake; 
+  }
+}
+.isax-buy-crypto {
+  &:before {
+    content: $isax-buy-crypto; 
+  }
+}
+.isax-bus {
+  &:before {
+    content: $isax-bus; 
+  }
+}
+.isax-buliding {
+  &:before {
+    content: $isax-buliding; 
+  }
+}
+.isax-buildings-2 {
+  &:before {
+    content: $isax-buildings-2; 
+  }
+}
+.isax-buildings {
+  &:before {
+    content: $isax-buildings; 
+  }
+}
+.isax-building-4 {
+  &:before {
+    content: $isax-building-4; 
+  }
+}
+.isax-building-3 {
+  &:before {
+    content: $isax-building-3; 
+  }
+}
+.isax-building {
+  &:before {
+    content: $isax-building; 
+  }
+}
+.isax-bucket-square-1 {
+  &:before {
+    content: $isax-bucket-square-1; 
+  }
+}
+.isax-bucket-square {
+  &:before {
+    content: $isax-bucket-square; 
+  }
+}
+.isax-bucket-circle-1 {
+  &:before {
+    content: $isax-bucket-circle-1; 
+  }
+}
+.isax-bucket-circle {
+  &:before {
+    content: $isax-bucket-circle; 
+  }
+}
+.isax-bubble {
+  &:before {
+    content: $isax-bubble; 
+  }
+}
+.isax-brush-3 {
+  &:before {
+    content: $isax-brush-3; 
+  }
+}
+.isax-brush-2 {
+  &:before {
+    content: $isax-brush-2; 
+  }
+}
+.isax-brush-1 {
+  &:before {
+    content: $isax-brush-1; 
+  }
+}
+.isax-brush {
+  &:before {
+    content: $isax-brush; 
+  }
+}
+.isax-broom {
+  &:before {
+    content: $isax-broom; 
+  }
+}
+.isax-brifecase-timer {
+  &:before {
+    content: $isax-brifecase-timer; 
+  }
+}
+.isax-brifecase-tick {
+  &:before {
+    content: $isax-brifecase-tick; 
+  }
+}
+.isax-brifecase-cross {
+  &:before {
+    content: $isax-brifecase-cross; 
+  }
+}
+.isax-briefcase {
+  &:before {
+    content: $isax-briefcase; 
+  }
+}
+.isax-box-time {
+  &:before {
+    content: $isax-box-time; 
+  }
+}
+.isax-box-tick {
+  &:before {
+    content: $isax-box-tick; 
+  }
+}
+.isax-box-search {
+  &:before {
+    content: $isax-box-search; 
+  }
+}
+.isax-box-remove {
+  &:before {
+    content: $isax-box-remove; 
+  }
+}
+.isax-box-add {
+  &:before {
+    content: $isax-box-add; 
+  }
+}
+.isax-box-2 {
+  &:before {
+    content: $isax-box-2; 
+  }
+}
+.isax-box-1 {
+  &:before {
+    content: $isax-box-1; 
+  }
+}
+.isax-box {
+  &:before {
+    content: $isax-box; 
+  }
+}
+.isax-book-square {
+  &:before {
+    content: $isax-book-square; 
+  }
+}
+.isax-book-saved {
+  &:before {
+    content: $isax-book-saved; 
+  }
+}
+.isax-bookmark-2 {
+  &:before {
+    content: $isax-bookmark-2; 
+  }
+}
+.isax-bookmark {
+  &:before {
+    content: $isax-bookmark; 
+  }
+}
+.isax-book-1 {
+  &:before {
+    content: $isax-book-1; 
+  }
+}
+.isax-book {
+  &:before {
+    content: $isax-book; 
+  }
+}
+.isax-blur-1 {
+  &:before {
+    content: $isax-blur-1; 
+  }
+}
+.isax-blur {
+  &:before {
+    content: $isax-blur; 
+  }
+}
+.isax-bluetooth-rectangle {
+  &:before {
+    content: $isax-bluetooth-rectangle; 
+  }
+}
+.isax-bluetooth-circle {
+  &:before {
+    content: $isax-bluetooth-circle; 
+  }
+}
+.isax-bluetooth-2 {
+  &:before {
+    content: $isax-bluetooth-2; 
+  }
+}
+.isax-bluetooth {
+  &:before {
+    content: $isax-bluetooth; 
+  }
+}
+.isax-blend-2 {
+  &:before {
+    content: $isax-blend-2; 
+  }
+}
+.isax-blend {
+  &:before {
+    content: $isax-blend; 
+  }
+}
+.isax-bitcoin-refresh {
+  &:before {
+    content: $isax-bitcoin-refresh; 
+  }
+}
+.isax-bitcoin-convert {
+  &:before {
+    content: $isax-bitcoin-convert; 
+  }
+}
+.isax-bitcoin-card {
+  &:before {
+    content: $isax-bitcoin-card; 
+  }
+}
+.isax-bill {
+  &:before {
+    content: $isax-bill; 
+  }
+}
+.isax-bezier-1 {
+  &:before {
+    content: $isax-bezier-1; 
+  }
+}
+.isax-bezier {
+  &:before {
+    content: $isax-bezier; 
+  }
+}
+.isax-battery-full {
+  &:before {
+    content: $isax-battery-full; 
+  }
+}
+.isax-battery-empty-1 {
+  &:before {
+    content: $isax-battery-empty-1; 
+  }
+}
+.isax-battery-empty {
+  &:before {
+    content: $isax-battery-empty; 
+  }
+}
+.isax-battery-disable {
+  &:before {
+    content: $isax-battery-disable; 
+  }
+}
+.isax-battery-charging {
+  &:before {
+    content: $isax-battery-charging; 
+  }
+}
+.isax-battery-3full {
+  &:before {
+    content: $isax-battery-3full; 
+  }
+}
+.isax-barcode {
+  &:before {
+    content: $isax-barcode; 
+  }
+}
+.isax-bank {
+  &:before {
+    content: $isax-bank; 
+  }
+}
+.isax-bag-timer {
+  &:before {
+    content: $isax-bag-timer; 
+  }
+}
+.isax-bag-tick-2 {
+  &:before {
+    content: $isax-bag-tick-2; 
+  }
+}
+.isax-bag-tick {
+  &:before {
+    content: $isax-bag-tick; 
+  }
+}
+.isax-bag-happy {
+  &:before {
+    content: $isax-bag-happy; 
+  }
+}
+.isax-bag-cross-1 {
+  &:before {
+    content: $isax-bag-cross-1; 
+  }
+}
+.isax-bag-cross {
+  &:before {
+    content: $isax-bag-cross; 
+  }
+}
+.isax-bag-2 {
+  &:before {
+    content: $isax-bag-2; 
+  }
+}
+.isax-bag {
+  &:before {
+    content: $isax-bag; 
+  }
+}
+.isax-backward-item-1 {
+  &:before {
+    content: $isax-backward-item-1; 
+  }
+}
+.isax-backward-item {
+  &:before {
+    content: $isax-backward-item; 
+  }
+}
+.isax-backward-15-seconds {
+  &:before {
+    content: $isax-backward-15-seconds; 
+  }
+}
+.isax-backward-10-seconds {
+  &:before {
+    content: $isax-backward-10-seconds; 
+  }
+}
+.isax-backward-5-seconds {
+  &:before {
+    content: $isax-backward-5-seconds; 
+  }
+}
+.isax-backward {
+  &:before {
+    content: $isax-backward; 
+  }
+}
+.isax-back-square {
+  &:before {
+    content: $isax-back-square; 
+  }
+}
+.isax-award {
+  &:before {
+    content: $isax-award; 
+  }
+}
+.isax-autobrightness {
+  &:before {
+    content: $isax-autobrightness; 
+  }
+}
+.isax-audio-square {
+  &:before {
+    content: $isax-audio-square; 
+  }
+}
+.isax-attach-square {
+  &:before {
+    content: $isax-attach-square; 
+  }
+}
+.isax-attach-circle {
+  &:before {
+    content: $isax-attach-circle; 
+  }
+}
+.isax-arrow-up-3 {
+  &:before {
+    content: $isax-arrow-up-3; 
+  }
+}
+.isax-arrow-up-2 {
+  &:before {
+    content: $isax-arrow-up-2; 
+  }
+}
+.isax-arrow-up-1 {
+  &:before {
+    content: $isax-arrow-up-1; 
+  }
+}
+.isax-arrow-up {
+  &:before {
+    content: $isax-arrow-up; 
+  }
+}
+.isax-arrow-swap-horizontal {
+  &:before {
+    content: $isax-arrow-swap-horizontal; 
+  }
+}
+.isax-arrow-square-up {
+  &:before {
+    content: $isax-arrow-square-up; 
+  }
+}
+.isax-arrow-square-right {
+  &:before {
+    content: $isax-arrow-square-right; 
+  }
+}
+.isax-arrow-square-left {
+  &:before {
+    content: $isax-arrow-square-left; 
+  }
+}
+.isax-arrow-square-down {
+  &:before {
+    content: $isax-arrow-square-down; 
+  }
+}
+.isax-arrow-square {
+  &:before {
+    content: $isax-arrow-square; 
+  }
+}
+.isax-arrow-right-3 {
+  &:before {
+    content: $isax-arrow-right-3; 
+  }
+}
+.isax-arrow-right-2 {
+  &:before {
+    content: $isax-arrow-right-2; 
+  }
+}
+.isax-arrow-right-1 {
+  &:before {
+    content: $isax-arrow-right-1; 
+  }
+}
+.isax-arrow-right {
+  &:before {
+    content: $isax-arrow-right; 
+  }
+}
+.isax-arrow-left-3 {
+  &:before {
+    content: $isax-arrow-left-3; 
+  }
+}
+.isax-arrow-left-2 {
+  &:before {
+    content: $isax-arrow-left-2; 
+  }
+}
+.isax-arrow-left-1 {
+  &:before {
+    content: $isax-arrow-left-1; 
+  }
+}
+.isax-arrow-left {
+  &:before {
+    content: $isax-arrow-left; 
+  }
+}
+.isax-arrow-down-2 {
+  &:before {
+    content: $isax-arrow-down-2; 
+  }
+}
+.isax-arrow-down-1 {
+  &:before {
+    content: $isax-arrow-down-1; 
+  }
+}
+.isax-arrow-down {
+  &:before {
+    content: $isax-arrow-down; 
+  }
+}
+.isax-arrow-circle-right {
+  &:before {
+    content: $isax-arrow-circle-right; 
+  }
+}
+.isax-arrow-circle-left {
+  &:before {
+    content: $isax-arrow-circle-left; 
+  }
+}
+.isax-arrow-circle-down {
+  &:before {
+    content: $isax-arrow-circle-down; 
+  }
+}
+.isax-arrow-bottom {
+  &:before {
+    content: $isax-arrow-bottom; 
+  }
+}
+.isax-arrow-3 {
+  &:before {
+    content: $isax-arrow-3; 
+  }
+}
+.isax-arrow-2 {
+  &:before {
+    content: $isax-arrow-2; 
+  }
+}
+.isax-arrow {
+  &:before {
+    content: $isax-arrow; 
+  }
+}
+.isax-arrange-square-2 {
+  &:before {
+    content: $isax-arrange-square-2; 
+  }
+}
+.isax-arrange-square {
+  &:before {
+    content: $isax-arrange-square; 
+  }
+}
+.isax-arrange-circle-2 {
+  &:before {
+    content: $isax-arrange-circle-2; 
+  }
+}
+.isax-arrange-circle {
+  &:before {
+    content: $isax-arrange-circle; 
+  }
+}
+.isax-archive-tick {
+  &:before {
+    content: $isax-archive-tick; 
+  }
+}
+.isax-archive-slash {
+  &:before {
+    content: $isax-archive-slash; 
+  }
+}
+.isax-archive-minus {
+  &:before {
+    content: $isax-archive-minus; 
+  }
+}
+.isax-archive-book {
+  &:before {
+    content: $isax-archive-book; 
+  }
+}
+.isax-archive-add {
+  &:before {
+    content: $isax-archive-add; 
+  }
+}
+.isax-archive-1 {
+  &:before {
+    content: $isax-archive-1; 
+  }
+}
+.isax-archive {
+  &:before {
+    content: $isax-archive; 
+  }
+}
+.isax-aquarius {
+  &:before {
+    content: $isax-aquarius; 
+  }
+}
+.isax-align-vertically {
+  &:before {
+    content: $isax-align-vertically; 
+  }
+}
+.isax-align-right {
+  &:before {
+    content: $isax-align-right; 
+  }
+}
+.isax-align-left {
+  &:before {
+    content: $isax-align-left; 
+  }
+}
+.isax-align-horizontally {
+  &:before {
+    content: $isax-align-horizontally; 
+  }
+}
+.isax-align-bottom {
+  &:before {
+    content: $isax-align-bottom; 
+  }
+}
+.isax-alarm {
+  &:before {
+    content: $isax-alarm; 
+  }
+}
+.isax-airpods {
+  &:before {
+    content: $isax-airpods; 
+  }
+}
+.isax-airpod {
+  &:before {
+    content: $isax-airpod; 
+  }
+}
+.isax-airplane-square {
+  &:before {
+    content: $isax-airplane-square; 
+  }
+}
+.isax-airplane {
+  &:before {
+    content: $isax-airplane; 
+  }
+}
+.isax-airdrop {
+  &:before {
+    content: $isax-airdrop; 
+  }
+}
+.isax-add-square {
+  &:before {
+    content: $isax-add-square; 
+  }
+}
+.isax-additem {
+  &:before {
+    content: $isax-additem; 
+  }
+}
+.isax-add-circle {
+  &:before {
+    content: $isax-add-circle; 
+  }
+}
+.isax-add {
+  &:before {
+    content: $isax-add; 
+  }
+}
+.isax-activity {
+  &:before {
+    content: $isax-activity; 
+  }
+}
+.isax-support {
+  &:before {
+    content: $isax-support; 
+  }
+}
+.isax-square {
+  &:before {
+    content: $isax-square; 
+  }
+}
+.isax-d-square {
+  &:before {
+    content: $isax-d-square; 
+  }
+}
+.isax-d-rotate {
+  &:before {
+    content: $isax-d-rotate; 
+  }
+}
+.isax-d-cube-scan {
+  &:before {
+    content: $isax-d-cube-scan; 
+  }
+}
+.isax-dcube {
+  &:before {
+    content: $isax-dcube; 
+  }
+}
+
