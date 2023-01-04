@@ -17,7 +17,7 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/i18n": "^7.3.0",
     "@tailwindcss/line-clamp": "^0.4.0",
-    "@tinymce/tinymce-vue": "^3",
+    "@tinymce/tinymce-vue": "^5",
     "ant-design-vue": "^1.7.8",
     "autoprefixer": "^10.4.0",
     "chart.js": "^2.9.4",
