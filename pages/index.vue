@@ -196,7 +196,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="slide relative">
                 <div class="pb-[36px]">
                     <div class="md:flex hidden flex-col text-center justify-center">
