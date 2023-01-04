@@ -49,8 +49,8 @@
                             </div>
                             <div class="grid md:grid-cols-3 grid-cols-2 overflow-hidden mt-[20px] gap-[18px] mb-[40px]">
                                 <div class="flex md:h-[320px] h-[260px] bg-white rounded-[18px] flex-col justify-center items-center ">
-                                    <img src="@/static/image/pen-img11 1.png" class="md:w-[180px] w-[145px]  pt-[10px] object-cover">
-                                    <p class="text-sm px-3  text-center font-medium text-black ">
+                                    <img src="@/static/image/pen-img11 1.png" class="md:w-[180px] w-[145px] h-[160px] object-cover">
+                                    <p class="text-sm px-3 mb-[6px] text-center font-medium text-black ">
                                         Aero Mechanical Pencil
                                     </p>
                                     <div>
@@ -59,8 +59,8 @@
                                     </div>
                                 </div>
                                 <div class="flex md:h-[320px] h-[260px] bg-white rounded-[18px] flex-col justify-center items-center ">
-                                    <img src="@/static/image/pen-img11 2.png" class="md:w-[180px] w-[145px]  pt-[10px] object-cover">
-                                    <p class="text-sm px-3  text-center font-medium text-black ">
+                                    <img src="@/static/image/pen-img11 2.png" class="md:w-[180px] w-[145px] h-[160px] object-cover">
+                                    <p class="text-sm px-3 mb-[6px]  text-center font-medium text-black ">
                                         Castell Mechanical Pencil
                                     </p>
                                     <div>
@@ -161,7 +161,7 @@
                     <div class="grid md:grid-cols-3 grid-cols-2 overflow-hidden mt-[20px] gap-5 mb-[40px]">
                         <div class="flex md:h-[320px] h-[260px] bg-white rounded-[18px] flex-col justify-center items-center ">
                             <img src="@/static/image/pen-img11 1.png" class="w-[180px] mx-[22px] pt-[10px] object-cover">
-                            <p class="text-[14px] font-medium text-black ">
+                            <p class="text-[14px] mb-[6px] font-medium text-black ">
                                 Aero Mechanical Pencil
                             </p>
                             <div>
@@ -171,12 +171,12 @@
                         </div>
                         <div class="flex md:h-[320px] h-[260px] bg-white rounded-[18px] flex-col justify-center items-center ">
                             <img src="@/static/image/pen-img11 2.png" class="w-[180px] mx-[22px] pt-[10px] object-cover">
-                            <p class="text-[14px] font-medium text-black ">
+                            <p class="text-[14px] mb-[6px] font-medium text-black ">
                                 Castell Mechanical Pencil
                             </p>
                             <div>
-                                <span class="text-base text-black font-semibold mr-2">$99.00</span>
-                                <span class="line-through text-sm">$125.00</span>
+                                <span class="text-base text-black font-semibold mr-2">$75.00</span>
+                                <span class="line-through text-sm">$99.00</span>
                             </div>
                         </div>
                         <div class="md:flex hidden md:h-[320px] h-[260px] bg-white rounded-[18px] flex-col justify-center items-center ">
