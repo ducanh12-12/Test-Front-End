@@ -1737,10 +1737,12 @@
   resolved "https://registry.yarnpkg.com/@tailwindcss/line-clamp/-/line-clamp-0.4.2.tgz#f353c5a8ab2c939c6267ac5b907f012e5ee130f9"
   integrity sha512-HFzAQuqYCjyy/SX9sLGB1lroPzmcnWv1FHkIpmypte10hptf4oPUfucryMKovZh2u0uiS9U5Ty3GghWfEJGwVw==
 
-"@tinymce/tinymce-vue@^3":
-  version "3.2.8"
-  resolved "https://registry.yarnpkg.com/@tinymce/tinymce-vue/-/tinymce-vue-3.2.8.tgz#014571b52ec8fa83665a7fa887bf65140207de71"
-  integrity sha512-jEz+NZ0g+FZFz273OEUWz9QkwPMyjc5AJYyxOgu51O1Y5UaJ/6IUddXTX6A20mwCleEv5ebwNYdalviafx4fnA==
+"@tinymce/tinymce-vue@^5":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@tinymce/tinymce-vue/-/tinymce-vue-5.0.1.tgz#7092fb7f5ce9b407796dde791857a69b1deac719"
+  integrity sha512-RzJflpf06VimGQNgCYMasS5+gEKTOs5ddOgrBuTGOMsHOeKBhMTim9ePjiwYpCpilyZgR5ZDyo5NfZgrKOHHEA==
+  dependencies:
+    tinymce "^6.0.0 || ^5.5.1"
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.3"
@@ -10813,6 +10815,11 @@ tinycolor2@^1.4.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.5.1.tgz#df11c5f14e6b7fdd8a9c27c2c6a5f2565fb776b7"
   integrity sha512-BHlrsGeYN2OpkRpfAgkEwCMu6w8Quq8JkK/mp4c55NZP7OwceJObR1CPZt62TqiA0Y3J5pwuDX+fXDqc35REtg==
+
+"tinymce@^6.0.0 || ^5.5.1":
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-6.3.2.tgz#aecee6273dc7556664a0d1664b5fe7ec818cfbb1"
+  integrity sha512-nOVHk4FhHKQj48hi7fEptS1Se6CNzPtfIcDzTO70KoTcSiQIFzhhZjS5bPotSzFnQ4dIQJ4QPOd7sqNs6fXUrA==
 
 tmp@^0.0.33:
   version "0.0.33"
